@@ -61,7 +61,7 @@ async def _(ping):
     await Ayiin.edit("⚡")
     sleep(3)
     await Ayiin.edit(
-        f"**✧ ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ ✧**\n\n"
+        f"**✧ ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ ✧**\n\n"
         f"✧ **𝙿𝙸𝙽𝙶𝙴𝚁 :** `%sms`\n"
         f"✧ **𝚄𝙿𝚃𝙸𝙼𝙴 :** `{uptime}` \n"
         f"✧ **𝙾𝚆𝙽𝙴𝚁 :** [{user.first_name}](tg://user?id={user.id})" % (duration)
