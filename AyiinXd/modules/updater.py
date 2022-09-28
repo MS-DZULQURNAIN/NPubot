@@ -128,7 +128,7 @@ async def upstream(event):
         xx = await eor(event, get_string("upd_1"))
     conf = event.pattern_match.group(1).strip()
     off_repo = b64decode(
-        "aHR0cHM6Ly9naXRodWIuY29tL3dpc2UtbWFlc3Ryby93aXNldGVsZXRob24="
+        "aHR0cHM6Ly9naXRodWIuY29tL3Rva29uYW5kYXBlZGlhL05hbmRhUGVkaWFVYm90"
     ).decode("utf-8")
     force_update = False
     try:
@@ -207,9 +207,9 @@ CMD_HELP.update(
     {
         "update": f"**Plugin : **`update`\
         \n\n  »  **Perintah :** `{cmd}update`\
-        \n  »  **Kegunaan : **Untuk Melihat Pembaruan Terbaru ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ.\
+        \n  »  **Kegunaan : **Untuk Melihat Pembaruan Terbaru ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ.\
         \n\n  »  **Perintah :** `{cmd}update deploy`\
-        \n  »  **Kegunaan : **Untuk MengUpdate Fitur Terbaru Dari ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ.\
+        \n  »  **Kegunaan : **Untuk MengUpdate Fitur Terbaru Dari ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ.\
     "
     }
 )
