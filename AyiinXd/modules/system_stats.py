@@ -109,8 +109,8 @@ async def psu(event):
     help_string += "**Iɴғᴏʀᴍᴀsɪ Mᴇsɪɴ**\n"
     help_string += f"**Pʏᴛʜᴏɴ :** `{sys.version}`\n"
     help_string += f"**Tᴇʟᴇᴛʜᴏɴ :**`{__version__}`\n"
-    help_string += f"**Pʏ-Aʏɪɪɴ :** `{py_ver}`\n"
-    help_string += f"**Aʏɪɪɴ-Vᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
+    help_string += f"**Pʏ-ɴᴀɴᴅᴀᴘᴇᴅɪᴀ :** `{py_ver}`\n"
+    help_string += f"**ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-Vᴇʀsɪᴏɴ :** `{ayiin_version} [{HOSTED_ON}]`"
     await edit_or_reply(event, help_string)
 
 
@@ -187,7 +187,7 @@ async def amireallyalive(alive):
     await alive.edit("😈")
     await asyncio.sleep(3)
     output = (
-        f"**Tʜᴇ [ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ](https://github.com/wise-maestro/wisetelethon)**\n\n"
+        f"**Tʜᴇ [ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ](https://github.com/tokonandapedia/NandaPediaUbot)**\n\n"
         f"**{alive_text}**\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"{emoji} **Bᴀsᴇ Oɴ :** ••{adB.name}••\n"
@@ -197,8 +197,8 @@ async def amireallyalive(alive):
         f"{emoji} **Pʏᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{python_version()}` \n"
         f"{emoji} **PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `{pytgcallss}` \n"
         f"{emoji} **Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
-        f"{emoji} **Pʏ-ᴡɪsᴇ Vᴇʀsɪᴏɴ :** `{py_ver}`\n"
-        f"{emoji} **ᴡɪsᴇ Vᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
+        f"{emoji} **Pʏ-ɴᴀɴᴅᴀᴘᴇᴅɪᴀ Vᴇʀsɪᴏɴ :** `{py_ver}`\n"
+        f"{emoji} **ɴᴀɴᴅᴀᴘᴇᴅɪᴀ Vᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"{emoji} **Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         "╰✠╼━━━━━━━━━━━━━━━✠╯\n\n"
     )
@@ -239,7 +239,7 @@ CMD_HELP.update(
 CMD_HELP.update(
     {
         "alive": f"**Plugin : **`alive`\
-        \n\n  »  **Perintah :** `{cmd}alive` atau `{cmd}yinson`\
+        \n\n  »  **Perintah :** `{cmd}alive` atau `{cmd}nanda`\
         \n  »  **Kegunaan : **Untuk melihat apakah bot Anda berfungsi atau tidak.\
     "
     }
