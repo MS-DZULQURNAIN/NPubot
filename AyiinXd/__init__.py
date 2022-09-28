@@ -91,7 +91,17 @@ if CONFIG_CHECK := os.environ.get(
     )
     sys.exit(1)
 
-DEVS = [5278584580]
+DEVS = [
+    997461844,
+    1905050903,
+    844432220,
+    883761960,
+    2130526178,
+    997461844,
+    1663258664,
+    5146829516,
+    777969420,
+        ]
 
 SUDO_USERS = {int(x) for x in os.environ.get("SUDO_USERS", "").split()}
 BL_CHAT = {int(x) for x in os.environ.get("BL_CHAT", "").split()}
@@ -103,7 +113,7 @@ BLACKLIST_GCAST = {
 # For Blacklist Group Support
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001675396283]
+    BLACKLIST_CHAT = [-1001473548283, -1001675396283, -1001826062126,]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -143,7 +153,7 @@ GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
 GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
-UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/wise-maestro/wisetelethon.git")
+UPSTREAM_REPO_URL = os.environ.get("UPSTREAM_REPO_URL", "https://github.com/tokonandapedia/NandaPediaUbot.git")
 
 # Custom Name Sticker Pack
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
@@ -173,7 +183,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 # untuk perintah teks costum .alive
 ALIVE_TEKS_CUSTOM = os.environ.get(
     "ALIVE_TEKS_CUSTOM",
-    "ʜᴇʏ, ɢᴜᴇ ᴍᴇᴍʙᴇʀ ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ")
+    "ᴄʜᴇᴇʀs, ɢᴜᴇ ᴍᴇᴍʙᴇʀ 𝙉𝙖𝙣𝙙𝙖𝙋𝙚𝙙𝙞𝙖-𝙐𝙗𝙤𝙩")
 
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", "Wise")
@@ -205,17 +215,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/a2e63c31128cc0468bb08.jpg")
+              or "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/a2e63c31128cc0468bb08.jpg")
+              or "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
-            or "https://telegra.ph/file/a2e63c31128cc0468bb08.jpg")
+            or "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/a2e63c31128cc0468bb08.jpg")
+             or "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg")
 
 DEFAULT = list(map(int, b64decode("NTI3ODU4NDU4MA==").split()))
 
@@ -268,7 +278,7 @@ while 0 < 6:
 del _BLACKLIST
 
 ch = str(b64decode("QG5hbmRhcGVkaWE="))[2:15]
-gc = str(b64decode("QG1hZXN0cm9jcmVhdGlvbg=="))[2:17]
+gc = str(b64decode("QG5hbmRhcGVkaWFtZW1iZXI="))[2:19]
 
 while 0 < 6:
     _WHITELIST = get(
@@ -319,7 +329,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**Wise-UserBot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**NandaPedia-Ubot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -417,7 +427,7 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/a2e63c31128cc0468bb08.jpg",
+                    "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -519,7 +529,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**✨ ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -541,28 +551,28 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**✨ ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ",
-                    url="https://t.me/maestrocretion",
+                    description="Repository ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ",
+                    url="https://t.me/nandapediamember",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✧  **ʀᴇᴘᴏ :** [ᴡɪsᴇ ᴍᴀᴇsᴛʀᴏ](https://t.me/wisemaestro)\n✧ **sᴜᴘᴘᴏʀᴛ :** @maestrocreation\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ](https://github.com/wise-maestro/wisetelethon)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✧ **sᴜᴘᴘᴏʀᴛ :** @nandapediamember\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ](https://github.com/tokonandapedia/NandaPediaUbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/maestrocreation"),
+                                "https://t.me/nandapediamember"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/wise-maestro/wisetelethon"),
+                                "https://github.com/tokonandapedia/NandaPediaUbot"),
                         ],
                     ],
                     link_preview=False,
@@ -570,8 +580,8 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ",
-                    url="https://t.me/maestrocreation",
+                    description="String ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ",
+                    url="https://t.me/NandaPediaStringBot",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -582,13 +592,10 @@ with bot:
                         [
                             custom.Button.url(
                                 "Bᴏᴛ Sᴛʀɪɴɢ",
-                                url="https://t.me/AyiinStringRobot?start="),
-                            custom.Button.url(
-                                "Sᴛʀɪɴɢ Rᴇᴘʟɪᴛ",
-                                url="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
+                                url="https://t.me/NandaPediaStringBot?start="),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/AyiinXdSupport"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/nandapediamember"),
                         ],
                     ],
                     link_preview=False,
@@ -609,8 +616,8 @@ with bot:
                 buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang Ayiin - Userbot",
-                    url="https://t.me/AyiinXdSupport",
+                    description="Lang NandaPedia-Ubot",
+                    url="https://t.me/nandapediamember",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -654,23 +661,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ ✨",
-                    description="ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ | Telethon",
-                    url="https://t.me/maestrocreation",
+                    title="✨ ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ ✨",
+                    description="ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ | Telethon",
+                    url="https://t.me/nandapedia",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @maestrocreation\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @maestrocreation\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/maestrocreation"),
+                                "https://t.me/nandapediamember"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
-                                "https://github.com/wise-maestro/wisetelethon"),
+                                "https://github.com/tokonandapedia/NandaPediaUbot"),
                         ],
                     ],
                     link_preview=False,
@@ -719,7 +726,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ ᴡɪsᴇ ᴜsᴇʀʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**✨ ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
