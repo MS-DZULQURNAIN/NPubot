@@ -1,18 +1,18 @@
- <h1 align="center">✨ 𝘼𝙮𝙞𝙞𝙣 𝙐𝙨𝙚𝙧𝙗𝙤𝙩 ✨</h1>
+ <h1 align="center">✨ 𝙉𝙖𝙣𝙙𝙖𝙋𝙚𝙙𝙞𝙖-𝙐𝙗𝙤𝙩 ✨</h1>
 
-<a href="https://github.com/AyiinXd/Ayiin-Userbot/commits"> <img src="https://img.shields.io/github/last-commit/AyiinXd/Ayiin-Userbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
+<a href="https://github.com/tokonandapedia/NandaPediaUbot/commits"> <img src="https://img.shields.io/github/last-commit/tokonandapedia/NandaPediaUbot?color=red&logo=github&logoColor=blue&style=for-the-badge" /></a>
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.png?v=103)](https://github.com/AyiinXd/Ayiin-Userbot)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/AyiinXd/Ayiin-Userbot/graphs/commit-activity)
-[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/AyiinXd/Ayiin-Userbot/dashboard)
-[![GitHub Forks](https://img.shields.io/github/forks/AyiinXd/Ayiin-Userbot?&logo=github)](https://github.com/AyiinXd/Ayiin-Userbot/fork)
-[![GitHub Stars](https://img.shields.io/github/stars/AyiinXd/Ayiin-Userbot?&logo=github)](https://github.com/AyiinXd/Ayiin-Userbot/stargazers)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-Yes-blue)](https://GitHub.com/tokonandapedia/NandaPediaUbot/graphs/commit-activity)
+[![CodeQuality](https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy)](https://app.codacy.com/gh/tokonandapedia/NandaPediaUbot/dashboard)
+[![GitHub Forks](https://img.shields.io/github/forks/tokonandapedia/NandaPediaUbot?&logo=github)](https://github.com/tokonandapedia/NandaPediaUbot/fork)
+[![GitHub Stars](https://img.shields.io/github/stars/tokonandapedia/NandaPediaUbot?&logo=github)](https://github.com/tokonandapedia/NandaPediaUbot/stargazers)
 
 
 <p align="center">
-  <img src="https://telegra.ph/file/940f21be8d8863b6c70ae.jpg">
+  <img src="https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg">
 </p>
 
-👩‍💻 Ayiin-Userbot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
+👩‍💻 NandaPedia-Ubot adalah userbot Telegram modular yang berjalan di Python3 dengan database sqlalchemy.
 
 Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
 Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
@@ -33,10 +33,8 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <br>
     
 > Anda memerlukan API_ID & API_HASH untuk menghasilkan sesi telethon. ambil APP ID dan API Hash di my.telegram.org
-<h4> Generate Session via Repl: </h4>    
-<p><a href="https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
 <h4> Generate Session via Telegram StringGen Bot: </h4>    
-<p><a href="https://t.me/AyiinStringRobot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
+<p><a href="https://t.me/NandaPediaStringBot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
     
 </details>
 
@@ -47,9 +45,9 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 ### Tutorial Deploy di VPS
 
 
- • `git clone https://github.com/AyiinXd/Ayiin-Userbot`
+ • `git clone https://github.com/tokonandapedia/NandaPediaUbot`
 
- • `cd Ayiin-Userbot`
+ • `cd NandaPediaUbot`
 
  • `pip3 install -U -r requirements.txt`
 
@@ -61,7 +59,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
   - ketik ctrl + S
   - ctrl + X
 
- • `screen -S Ayiin-Userbot`
+ • `screen -S NandaPediaUbot`
 
  • `bash start`
 
@@ -71,7 +69,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a href="https://heroku.com/deploy?template=https://github.com/wise-maestro/wisetelethon"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
+<p><a href="https://heroku.com/deploy?template=https://github.com/tokonandapedia/NandaPediaUbot"><img src="https://img.shields.io/badge/BUAT DI-HEROKU-aqua?style=plastic&logo=heroku&logoColor=gold"width="300" /></a></p>
 
 </details>
 
@@ -85,7 +83,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [@AyiinSupport](https://t.me/AyiinSupport) untuk info Update bot dan Gabung Group [@AyiinXdSupport](https://t.me/AyiinXdSupport) untuk untuk diskusi, pelaporan bug, dan bantuan tentang Ayiin-Userbot.
+Follow Channel [ɴᴀɴᴅᴀᴘᴇᴅɪᴀ](https://t.me/nandapedia) untuk info Update bot dan Gabung Group [ɴᴀɴᴅᴀᴘᴇᴅɪᴀ ᴍᴇᴍʙᴇʀ](https://t.me/nandapediamember) untuk untuk diskusi, pelaporan bug, dan bantuan tentang NandaPedia-Ubot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
