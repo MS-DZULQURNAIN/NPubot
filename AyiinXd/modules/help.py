@@ -30,9 +30,9 @@ async def help(event):
         xnxx = await eor(event, "🗿")
         sleep(3)
         await xnxx.edit(
-            f"**[✧ 𝙰𝚈𝙸𝙸𝙽-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧](https://github.com/AyiinXd/Ayiin-Userbot)**\n"
+            f"**[✧ ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ ✧](https://github.com/tokonandapedia/NandaPediaUbot)**\n"
             f"**߷ 𝙹𝚄𝙼𝙻𝙰𝙷** `{len(CMD_HELP)}` **Modules**\n"
             f"**♕︎ 𝙾𝚆𝙽𝙴𝚁:** [{user.first_name}](tg://user?id={user.id})\n\n"
             f"{ICON_HELP}   {string}"
-            f"\n\n☞  **𝚂𝚄𝙿𝙿𝙾𝚁𝚃** : @AyiinXdSupport\n☞  **𝙽𝙾𝚃𝙴𝚂** :  `{cmd}help yinsubot` **Untuk Melihat Modules Lainnya**"
+            f"\n\n☞  **𝚂𝚄𝙿𝙿𝙾𝚁𝚃** : @nandapediamember\n☞  **𝙽𝙾𝚃𝙴𝚂** :  `{cmd}help alive` **Untuk Melihat Modules Lainnya**"
         )
