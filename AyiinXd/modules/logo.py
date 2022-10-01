@@ -21,7 +21,7 @@ async def _(event):
         await eod(event, get_string("logo_1"))
     else:
         await eor(event, get_string("com_1"))
-    chat = "@tdtapibot"
+    chat = "@GreyCilik_bot"
     async with event.client.conversation(chat) as conv:
         try:
             msg = await conv.send_message(f"/logo {text}")
