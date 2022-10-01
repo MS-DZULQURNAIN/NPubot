@@ -179,7 +179,7 @@ async def bot_ver(event):
         )
 
 
-@ayiin_cmd(pattern="(?:alive|yinson)\\s?(.)?")
+@ayiin_cmd(pattern="(?:alive|nanda)\\s?(.)?")
 async def amireallyalive(alive):
     adB = AyiinDB()
     user = await alive.client.get_me()
