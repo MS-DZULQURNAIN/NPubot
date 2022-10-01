@@ -37,11 +37,10 @@ def build_keyboards(buttons):
 
 Y_BUTTONS = [
         [
-           custom.Button.url("Bᴏᴛ Sᴛʀɪɴɢ", "https://t.me/AyiinStringRobot"),
-           custom.Button.url("Rᴇᴘʟɪᴛ Sᴛʀɪɴɢ", "https://repl.it/@AyiinXd/AyiinString?lite=1&outputonly=1"),
+           custom.Button.url("Bᴏᴛ Sᴛʀɪɴɢ", "https://t.me/NandaPediaStringBot"),
         ],
         [
-           custom.Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/AyiinXdSupport"),
+           custom.Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/nandapediamember"),
         ],
     ]
 
