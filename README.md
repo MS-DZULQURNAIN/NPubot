@@ -83,7 +83,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 
 ## Updates & Support
 
-Follow Channel [ɴᴀɴᴅᴀᴘᴇᴅɪᴀ](https://t.me/nandapedia) untuk info Update bot dan Gabung Group [ɴᴀɴᴅᴀᴘᴇᴅɪᴀ ᴍᴇᴍʙᴇʀ](https://t.me/nandapediamember) untuk untuk diskusi, pelaporan bug, dan bantuan tentang NandaPedia-Ubot.
+Follow Channel [ɴᴀɴᴅᴀᴘᴇᴅɪᴀ](https://t.me/nandapediastore) untuk info Update bot dan Gabung Group [ɴᴀɴᴅᴀᴘᴇᴅɪᴀ ᴍᴇᴍʙᴇʀ](https://t.me/nandapedialuxurymember) untuk untuk diskusi, pelaporan bug, dan bantuan tentang NandaPedia-Ubot.
 
 #### Special Thanks To [Everyone](https://github.com/mrismanaziz/Man-Userbot/graphs/contributors) Who Has Helped Make This Userbot Awesome!
 -  [AdekMaulana](https://github.com/adekmaulana) : ProjectBish
