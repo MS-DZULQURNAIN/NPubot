@@ -138,8 +138,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "maestrocretion")
-CHANNEL = os.environ.get("CHANNEL", "nandapedia")
+GROUP = os.environ.get("GROUP", "nandapedialuxurymember")
+CHANNEL = os.environ.get("CHANNEL", "nandapediastore")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -558,18 +558,18 @@ with bot:
                 result = builder.article(
                     title="Repository",
                     description="Repository ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ",
-                    url="https://t.me/nandapediamember",
+                    url="https://t.me/nandapedialuxurymember",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text="**ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✧ **sᴜᴘᴘᴏʀᴛ :** @nandapediamember\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ](https://github.com/tokonandapedia/NandaPediaUbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✧ **sᴜᴘᴘᴏʀᴛ :** @nandapedialuxurymember\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ](https://github.com/tokonandapedia/NandaPediaUbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/nandapediamember"),
+                                "https://t.me/nandapedialuxurymember"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/tokonandapedia/NandaPediaUbot"),
@@ -595,7 +595,7 @@ with bot:
                                 url="https://t.me/NandaPediaStringBot?start="),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/nandapediamember"),
+                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/nandapedialuxurymember"),
                         ],
                     ],
                     link_preview=False,
@@ -617,7 +617,7 @@ with bot:
                 result = builder.article(
                     title="Lang",
                     description="Lang NandaPedia-Ubot",
-                    url="https://t.me/nandapediamember",
+                    url="https://t.me/nandapedialuxurymember",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -663,18 +663,18 @@ with bot:
                 result = builder.article(
                     title="✨ ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ ✨",
                     description="ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ | Telethon",
-                    url="https://t.me/nandapedia",
+                    url="https://t.me/nandapediastore",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @maestrocreation\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @nandapediastore\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
                                 "ɢʀᴏᴜᴘ",
-                                "https://t.me/nandapediamember"),
+                                "https://t.me/nandapedialuxurymember"),
                             custom.Button.url(
                                 "ʀᴇᴘᴏ",
                                 "https://github.com/tokonandapedia/NandaPediaUbot"),
