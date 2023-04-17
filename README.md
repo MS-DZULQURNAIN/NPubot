@@ -69,7 +69,7 @@ Gunakan bot ini dengan risiko Anda sendiri, dan gunakan userbot ini dengan bijak
 <summary><b>🔗 Deploy To Heroku</b></summary>
 <br>
 
-<p><a [![Name](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MS-DZULQURNAIN/NPubot)</a></p>
+[![Name](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MS-DZULQURNAIN/NPubot)
 
 </details>
 
