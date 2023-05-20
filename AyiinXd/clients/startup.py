@@ -23,7 +23,7 @@ from AyiinXd import (
 )
 from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\nɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ v{}, Copyright © 2021-2022 ᴀɴᴀɴᴅᴀ ᴄʜɪsᴀᴛᴏ"
+EOL = "EOL\nᴅᴢ ᴜsᴇʀʙᴏᴛ v{}, Copyright © 2021-2022 🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍"
 MSG_BLACKLIST = "Blacklisted"
 
 
