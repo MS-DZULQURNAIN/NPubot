@@ -35,6 +35,8 @@ def git():
        GIT_USERNAME = REPO_LINK.split("com/")[1].split("/")[0]
        TEMP_REPO = REPO_LINK.split("https://")[1]
        UPSTREAM_REPO = f"https://{GIT_USERNAME}:{GIT_TOKEN}@{TEMP_REPO}"
+    else:
+        UPSTREAM_REPO = REPO_URL
     try:
         repo = Repo()
         LOGS.info("Git Client Found")
