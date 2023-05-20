@@ -32,6 +32,7 @@ DZREPO = "https://github.com/MS-DZULQURNAIN/NPubot"
 def git():
     REPO_LINK = DZREPO
     if GIT_TOKEN:
+       GIT_USERNAME = REPO_LINK.split("com/")[1].split("/")[0]
     
     UPSTREAM_REPO
     try:
