@@ -4,7 +4,7 @@
 
 FROM ms-dzulqurnain/npubot:buster
 
-RUN git clone -b npubot https://github.com/MS-DZULQURNAIN/NPubot.git /home/npubot/ \
+RUN git clone -b NPubot https://github.com/MS-DZULQURNAIN/NPubot /home/npubot/ \
     && chmod 777 /home/npubot \
     && mkdir /home/npubot /bin/
 
