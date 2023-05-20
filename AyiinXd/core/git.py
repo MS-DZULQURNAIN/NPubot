@@ -27,9 +27,10 @@ def install_req(cmd: str) -> Tuple[str, str, int, int]:
 
     return asyncio.get_event_loop().run_until_complete(install_requirements())
 
-DZREPO=https://github.com/MS-DZULQURNAIN/NPubot
+DZREPO = "https://github.com/MS-DZULQURNAIN/NPubot"
 
 def git():
+    REPO_LINK = DZREPO
     UPSTREAM_REPO = b64decode(
         "aHR0cHM6Ly9naXRodWIuY29tL3Rva29uYW5kYXBlZGlhL05hbmRhUGVkaWFVYm90"
     ).decode("utf-8")
