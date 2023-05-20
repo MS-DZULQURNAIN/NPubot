@@ -1,9 +1,9 @@
 {
-  "name": "⋆ 𝙉𝙖𝙣𝙙𝙖𝙋𝙚𝙙𝙞𝙖-𝙐𝙗𝙤𝙩 ⋆",
-  "description": "[NandaPedia-Ubot] Userbot Hanya Untuk Bersenang - Senang",
-  "logo": "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg",
-  "keywords": ["telegram", "userbot", "NandaPedia-Ubot", "modular", "python"],
-  "repository": "https://github.com/tokonandapedia/NandaPediaUbot",
+  "name": "𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖",
+  "description": "[ᴅᴢ ᴜsᴇʀʙᴏᴛ] Userbot Hanya Untuk Bersenang - Senang",
+  "logo": "https://telegra.ph/file/9c8e3f0f011389d22afed.jpg",
+  "keywords": ["MS DZULQURNAIN"],
+  "repository": "https://github.com/MS-DZULQURNAIN/NPubot",
   "stack": "container",
   "env": {
     "API_KEY": {
