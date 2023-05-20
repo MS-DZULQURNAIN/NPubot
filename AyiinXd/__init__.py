@@ -383,13 +383,13 @@ def paginate_help(page_number, loaded_modules, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "⪻", data="{}_prev({})".format(prefix, modulo_page)
+                    "«", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "⪼ ʙᴀᴄᴋ ⪻", data="{}_close({})".format(prefix, modulo_page)
+                    "ᴋᴇᴍʙᴀʟɪ", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "⪼", data="{}_next({})".format(prefix, modulo_page)
+                    "»", data="{}_next({})".format(prefix, modulo_page)
                 ),
             )
         ]
@@ -427,7 +427,7 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg",
+                    "https://telegra.ph/file/9c8e3f0f011389d22afed.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -439,13 +439,10 @@ with bot:
         main_help_button = [
             [
                 Button.inline(get_string("help_4"), data="inline_yins"),
-            ],
-            [
                 Button.inline(get_string("help_2"), data="reopen"),
             ],
             [
                 Button.inline(get_string("help_6"), data="yins_langs"),
-                Button.url(get_string("help_7"), url=f"t.me/{botusername}?start="),
             ],
             [Button.inline(get_string("help_8"), data="close")],
         ]
