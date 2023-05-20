@@ -658,23 +658,23 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="✨ ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ ✨",
-                    description="ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ | Telethon",
-                    url="https://t.me/nandapediastore",
+                    title="𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖",
+                    description="ᴅᴢ ᴜsᴇʀʙᴏᴛ | Telethon",
+                    url="https://t.me/MSPR0JECT",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴀssɪsᴛᴀɴᴛ:** {tgbotusername}\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @nandapediastore\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n➖➖➖➖➖➖➖➖➖➖\n **ᴏᴡɴᴇʀ :** [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @MSDZULQRNN\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
-                                "ɢʀᴏᴜᴘ",
-                                "https://t.me/nandapedialuxurymember"),
+                                "ᴄʜᴀɴɴᴇʟ",
+                                "https://t.me/MSPR0JECT"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ",
-                                "https://github.com/tokonandapedia/NandaPediaUbot"),
+                                "ᴏᴡɴᴇʀ",
+                                "https://t.me/MSDZULQRNN"),
                         ],
                     ],
                     link_preview=False,
