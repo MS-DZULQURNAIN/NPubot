@@ -26,6 +26,10 @@
       "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
       "required": true
     },
+    "BOT_TOKEN": {
+      "description": "Bot token dari bot father",
+      "value": "6027376055:AAFB6E_zdofVJELysa1ygtij-TM5spvnqfQ"
+    },
     "BOTLOG_CHATID": {
       "description": "ID LOG GROUP -100",
       "value": "-1001989313447"
