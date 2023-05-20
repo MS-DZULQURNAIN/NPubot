@@ -723,7 +723,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**✨ ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n\n **ᴏᴡɴᴇʀ** : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\n **ᴛʏᴘᴇ :** ᴘʀᴇᴍɪᴜᴍ💎\n **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
@@ -750,7 +750,7 @@ with bot:
                                 languages[lang]['asli'], lang),
                             file=logoyins,
                             link_preview=True,
-                            buttons=[Button.inline("ʙᴀᴄᴋ", data="yins_close")]
+                            buttons=[Button.inline("ᴋᴇᴍʙᴀʟɪ", data="yins_close")]
                         )
                     except Exception:
                         pass
@@ -767,12 +767,12 @@ with bot:
 """,
                                  buttons=[
                                      [
-                                         Button.inline("⍟ ᴠᴄ ᴘʟᴜɢɪɴ ⍟",
+                                         Button.inline("ᴠᴄ ᴘʟᴜɢɪɴ",
                                                        data="vcplugin"),
-                                         Button.inline("⍟ ᴠᴄ ᴛᴏᴏʟs ⍟",
+                                         Button.inline("ᴠᴄ ᴛᴏᴏʟs",
                                                        data="vctools")],
                                      [custom.Button.inline(
-                                         "ʙᴀᴄᴋ", data="gcback")],
+                                         "ᴋᴇᴍʙᴀʟɪ", data="gcback")],
                                  ]
                                  )
             else:
@@ -818,7 +818,7 @@ with bot:
                     text,
                     file=logoyins,
                     link_preview=True,
-                    buttons=[Button.inline("ʙᴀᴄᴋ", data="inline_yins")])
+                    buttons=[Button.inline("ᴋᴇᴍʙᴀʟɪ", data="inline_yins")])
             else:
                 reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
@@ -856,7 +856,7 @@ with bot:
                     text,
                     file=logoyins,
                     link_preview=True,
-                    buttons=[Button.inline("ʙᴀᴄᴋ", data="inline_yins")])
+                    buttons=[Button.inline("ᴋᴇᴍʙᴀʟɪ", data="inline_yins")])
             else:
                 reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
@@ -960,7 +960,7 @@ with bot:
                     text,
                     file=logoyins,
                     link_preview=True,
-                    buttons=[Button.inline("ʙᴀᴄᴋ", data="gcback")])
+                    buttons=[Button.inline("ᴋᴇᴍʙᴀʟɪ", data="gcback")])
             else:
                 reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
@@ -968,7 +968,7 @@ with bot:
         @tgbot.on(events.CallbackQuery(data=b"close"))
         async def close(event):
             buttons = [
-                (custom.Button.inline("ᴍᴀɪɴ ᴍᴇɴᴜ", data="gcback"),),
+                (custom.Button.inline("ᴍᴇɴᴜ ᴅᴢ ᴜsᴇʀʙᴏᴛ", data="gcback"),),
             ]
             await event.edit("**ᴍᴇɴᴜ ᴅɪᴛᴜᴛᴜᴘ**", file=logoyins, buttons=buttons)
 
@@ -1026,7 +1026,7 @@ with bot:
                 )
                 await event.edit(
                     reply_pop_up_alert, buttons=[
-                        Button.inline("ʙᴀᴄᴋ", data="reopen")]
+                        Button.inline("ᴋᴇᴍʙᴀʟɪ", data="reopen")]
                 )
 
             else:
