@@ -526,7 +526,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**✨ ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = f"**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n\n **ᴏᴡɴᴇʀ** : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\n **ᴛʏᴘᴇ :** ᴘʀᴇᴍɪᴜᴍ💎\n **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -543,19 +543,19 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith(
-                    "@AyiinXdSupport"):
+                    "@MSPR0JECT"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**✨ ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ ɪɴʟɪɴᴇ ᴍᴇɴᴜ ✨**\n\n⍟ **ʙᴀsᴇ ᴏɴ :** {adB.name}\n⍟ **ᴅᴇᴘʟᴏʏ :** •[{HOSTED_ON}]•\n⍟ **ᴏᴡɴᴇʀ :** {user.first_name}\n⍟ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
+                    text=f"**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n\n **ᴏᴡɴᴇʀ** : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\n **ᴛʏᴘᴇ :** ᴘʀᴇᴍɪᴜᴍ💎\n **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ",
-                    url="https://t.me/nandapedialuxurymember",
+                    description="ʀᴇᴘᴏ ᴅᴢ ᴜsᴇʀʙᴏᴛ",
+                    url="https://t.me/MSPR0JECT",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
