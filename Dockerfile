@@ -2,7 +2,7 @@
 #      Created by: Alfa-Ex
 #=========× AyiinXd ×=========#
 
-FROM msdzulqurnain/npubot:buster
+FROM AyiinXd/npubot:buster
 
 RUN git clone -b NPubot https://github.com/MS-DZULQURNAIN/NPubot /home/npubot/ \
     && chmod 777 /home/npubot \
