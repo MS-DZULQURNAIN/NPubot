@@ -64,7 +64,7 @@ class Ayiin:
         try:
             await bot(
                 functions.phone.CreateGroupCallRequest(
-                    self._chat, title="🎧 Ayiin Music 🎧"
+                    self._chat, title="🎧 ᴅᴢ ᴍᴜsɪᴄ 🎧"
                 )
             )
         except Exception as e:
@@ -130,13 +130,13 @@ class Ayiin:
             if MSGID_CACHE.get(chat_id):
                 await MSGID_CACHE[chat_id].delete()
                 del MSGID_CACHE[chat_id]
-            text = "<strong>🎧 Now playing #{}: <a href={}>{}</a>\n⏰ Duration:</strong> <code>{}</code>\n👤 <strong>Requested by:</strong> {}".format(
+            text = "<strong>🎧 ᴍᴇᴍᴜᴛᴀʀ #{}: <a href={}>{}</a>\n⏰ ᴅᴜʀᴀsɪ:</strong> <code>{}</code>\n👤 <strong>ᴅɪʙᴀʙᴜɪɴ sᴀᴍᴀ:</strong> {}".format(
                 pos, link, title, dur, from_user
             )
             try:
                 xx = await bot.send_message(
                     self._current_chat,
-                    "<strong>🎧 Now playing #{}: <a href={}>{}</a>\n⏰ Duration:</strong> <code>{}</code>\n👤 <strong>Requested by:</strong> {}".format(
+                    "<strong>🎧 ᴍᴇᴍᴜᴛᴀʀ #{}: <a href={}>{}</a>\n⏰ ᴅᴜʀᴀsɪ:</strong> <code>{}</code>\n👤 <strong>ᴅɪʙᴀʙᴜɪɴ sᴀᴍᴀ:</strong> {}".format(
                         pos, link, title, dur, from_user
                     ),
                     file=thumb,
@@ -157,8 +157,7 @@ class Ayiin:
             del CLIENTS[self._chat]
             await bot.send_message(
                 self._current_chat,
-                f"• Successfully Left Vc : <code>{chat_id}</code> •",
-                parse_mode="html",
+                "ɢᴡ ᴜᴅᴀʜ ᴛᴜʀᴜɴ ᴛᴏᴅ"
             )
         except Exception as er:
             LOGS.exception(er)
@@ -175,8 +174,7 @@ class Ayiin:
         if done:
             await bot.send_message(
                 self._current_chat,
-                "• Joined VC in <code>{}</code>".format(chat_id),
-                parse_mode="html",
+                "ɢᴡ ᴜᴅᴀʜ ɴᴀɪᴋ ᴛᴏᴅ
             )
             return True
         await bot.send_message(
