@@ -215,17 +215,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg")
+              or "https://telegra.ph/file/9c8e3f0f011389d22afed.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg")
+              or "https://telegra.ph/file/9c8e3f0f011389d22afed.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
-            or "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg")
+            or "https://telegra.ph/file/9c8e3f0f011389d22afed.jpg")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg")
+             or "https://telegra.ph/file/9c8e3f0f011389d22afed.jpg")
 
 DEFAULT = list(map(int, b64decode("NTE0NjgyOTUxNg==").split()))
 
@@ -329,7 +329,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**NandaPedia-Ubot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**ᴅᴢ-ᴜsᴇʀʙᴏᴛ v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
