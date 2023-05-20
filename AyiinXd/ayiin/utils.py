@@ -58,8 +58,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ Lᴏɢs",
-                about="» Group log Created by: ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ\n\n» Support Channel : @nandapediastore\n» Support Group: @nandapedialuxurymember",
+                title="ᴅᴢ ᴜsᴇʀʙᴏᴛ Lᴏɢs",
+                about="» Group log dibuat oleh: ᴅᴢ ᴜsᴇʀʙᴏᴛ\n\n» Owner : @MSDZULQRNN\n» Channel : @MSPR0JECT",
                 megagroup=True,
             ),
         )
