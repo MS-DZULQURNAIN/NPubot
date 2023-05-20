@@ -8,10 +8,12 @@
   "env": {
     "API_KEY": {
       "description": "Dapatkan API KEY di Grup » https://t.me/nandapediamember » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
+      "value": "16452568", 
       "required": true
     },
     "API_HASH": {
       "description": "Dapatkan API Hash di Grup » https://t.me/nandapediamember » Lalu ketik /get api atau di web my.telegram.org",
+      "value": "f936697c5c9e5bffd433babef7a4e4c9",
       "required": true
     },
      "STRING_SESSION": {
@@ -28,7 +30,7 @@
     },
     "BOT_TOKEN": {
       "description": "Bot token dari bot father",
-      "value": "6027376055:AAFB6E_zdofVJELysa1ygtij-TM5spvnqfQ"
+      "value": "5962721853:AAHGfjlBTOjP1dLTRdYMoZLXwhAWnhdlWrI"
     },
     "BOTLOG_CHATID": {
       "description": "ID LOG GROUP -100",
@@ -36,7 +38,7 @@
     },
     "PM_AUTO_BAN": {
       "description": "PM Auto-Ban adalah module untuk bot welcome otomatis ketika ada orang ngePC kamu, jika Mau di matikan ubah ke False",
-      "value": "True",
+      "value": "False",
       "required": false
     }
   },
