@@ -30,6 +30,7 @@ def install_req(cmd: str) -> Tuple[str, str, int, int]:
 DZREPO = "https://github.com/MS-DZULQURNAIN/NPubot"
 
 def git():
+    if GIT_TOKEN:
     REPO_LINK = DZREPO
     UPSTREAM_REPO = b64decode(
         "aHR0cHM6Ly9naXRodWIuY29tL3Rva29uYW5kYXBlZGlhL05hbmRhUGVkaWFVYm90"
