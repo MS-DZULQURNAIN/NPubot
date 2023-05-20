@@ -561,15 +561,15 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ**\n➖➖➖➖➖➖➖➖➖➖\n✧ **sᴜᴘᴘᴏʀᴛ :** @nandapedialuxurymember\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ](https://github.com/tokonandapedia/NandaPediaUbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n➖➖➖➖➖➖➖➖➖➖\n **sᴜᴘᴘᴏʀᴛ :** @MSPR0JECT\n **ᴏᴡɴᴇʀ** : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
-                                "ɢʀᴏᴜᴘ",
-                                "https://t.me/nandapedialuxurymember"),
+                                "ᴄʜᴀɴɴᴇʟ",
+                                "https://t.me/MSPR0JECT"),
                             custom.Button.url(
-                                "ʀᴇᴘᴏ",
-                                "https://github.com/tokonandapedia/NandaPediaUbot"),
+                                "ᴏᴡɴᴇʀ",
+                                "https://t.me/MSDZULQRNN"),
                         ],
                     ],
                     link_preview=False,
@@ -577,8 +577,8 @@ with bot:
             elif query.startswith("string"):
                 result = builder.article(
                     title="String",
-                    description="String ɴᴀɴᴅᴀᴘᴇᴅɪᴀ-ᴜʙᴏᴛ",
-                    url="https://t.me/NandaPediaStringBot",
+                    description="sᴛʀɪɴɢ ᴅᴢ ᴜsᴇʀʙᴏᴛ",
+                    url="https://t.me/MsSTRINGbot",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
@@ -589,10 +589,10 @@ with bot:
                         [
                             custom.Button.url(
                                 "Bᴏᴛ Sᴛʀɪɴɢ",
-                                url="https://t.me/NandaPediaStringBot?start="),
+                                url="https://t.me/MsSTRINGbot?start="),
                         ],
                         [
-                            custom.Button.url("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/nandapedialuxurymember"),
+                            custom.Button.url("ᴄʜᴀɴɴᴇʟ", url="https://t.me/MSPR0JECT"),
                         ],
                     ],
                     link_preview=False,
@@ -610,11 +610,11 @@ with bot:
                 buttons = list(zip(tutud[::2], tutud[1::2]))
                 if len(tutud) % 2 == 1:
                     buttons.append((tutud[-1],))
-                buttons.append([custom.Button.inline("ʙᴀᴄᴋ", data="yins_close")])
+                buttons.append([custom.Button.inline("ᴋᴇᴍʙᴀʟɪ", data="yins_close")])
                 result = builder.article(
                     title="Lang",
-                    description="Lang NandaPedia-Ubot",
-                    url="https://t.me/nandapedialuxurymember",
+                    description="ʙᴀʜᴀsᴀ ᴅᴢ ᴜsᴇʀʙᴏᴛ",
+                    url="https://t.me/MSPR0JECT",
                     thumb=InputWebDocument(
                         logoyins,
                         0,
