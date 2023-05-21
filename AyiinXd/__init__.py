@@ -677,9 +677,11 @@ with bot:
                     buttons=[
                         [
                             Button.inline("ᴀᴅᴍɪɴ", data="adm"),
-                            Button.inline("", data=""),
-                                "ᴏᴡɴᴇʀ",
-                                "https://t.me/MSDZULQRNN"),
+                            Button.inline("ᴀғᴋ", data="afk"),
+                        ],
+                        [
+                            Button.inline("ᴀʟɪᴠᴇ", data="alv"),
+                            Button.inline ("ᴀsᴜᴘᴀɴ", data="asu"),
                         ],
                     ],
                     link_preview=False,
@@ -688,6 +690,18 @@ with bot:
                 [result], switch_pm="👥 USERBOT PORTAL", switch_pm_param="start"
             )
 
+        @tgbot.on(events.callbackquery.CallbackQuery(data=b"adm"))
+            async def adm(event):
+                if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
+                    await event.edit("HALO TOD",
+                                     buttons=[
+                                         [
+                                             Button.inline("tutup", data="close"),
+                                         ]])
+                   else:
+                        reply_pop_up_alert = "beli anj"
+                        await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+            
         @tgbot.on(
             events.callbackquery.CallbackQuery(
                 data=re.compile(rb"helpme_next\((.+?)\)")
