@@ -31,7 +31,7 @@ def install_req(cmd: str) -> Tuple[str, str, int, int]:
 def git():
     UPSTREAM_REPO = b64decode(
         "aHR0cHM6Ly9naXRodWIuY29tL3Rva29uYW5kYXBlZGlhL05hbmRhUGVkaWFVYm90"
-        ).decode("utf-8")
+    ).decode("utf-8")
     try:
         repo = Repo()
         LOGS.info("Git Client Found")
