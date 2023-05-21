@@ -4,9 +4,9 @@
 
 FROM ayiinxd/ayiin-userbot:buster
 
-RUN git clone -b Ayiin-Userbot https://github.com/MS-DZULQURNAIN/NPubot /home/ayiinuserbot/ \
-    && chmod 777 /home/ayiinuserbot \
-    && mkdir /home/ayiin-userbot /bin/
+RUN git clone -b Ayiin-Userbot https://github.com/MS-DZULQURNAIN/NPubot /home/npubot/ \
+    && chmod 777 /home/npubotn \
+    && mkdir /home/npubot/bin/
 
 COPY ./sample_config.env ./config.env* /home/ayiinuserbot/
 
