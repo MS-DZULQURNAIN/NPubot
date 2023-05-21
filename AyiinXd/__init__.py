@@ -666,13 +666,18 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n➖➖➖➖➖➖➖➖➖➖\n **ᴏᴡɴᴇʀ :** [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\n➖➖➖➖➖➖➖➖➖➖\n**ᴜᴘᴅᴀᴛᴇs :** @MSDZULQRNN\n➖➖➖➖➖➖➖➖➖➖",
+                    text=f"""**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**
+                    ━━━━━━━━━━━━━━━━━━
+                    ᴛʏᴘᴇ : ʙɪᴀsᴀ
+                    ᴀᴄᴛɪᴠᴇ : 𝟷 ʙᴜʟᴀɴ
+                    ᴏᴡɴᴇʀ : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)
+                    ᴜᴘᴅᴀᴛᴇs : @MSPR0JECT
+                    ━━━━━━━━━━━━━━━━━━
+                    Klik button dibawah untuk melihat modul !""",
                     buttons=[
                         [
-                            custom.Button.url(
-                                "ᴄʜᴀɴɴᴇʟ",
-                                "https://t.me/MSPR0JECT"),
-                            custom.Button.url(
+                            Button.inline("ᴀᴅᴍɪɴ", data="adm"),
+                            Button.inline("", data=""),
                                 "ᴏᴡɴᴇʀ",
                                 "https://t.me/MSDZULQRNN"),
                         ],
