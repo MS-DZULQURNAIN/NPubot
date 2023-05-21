@@ -445,7 +445,7 @@ with bot:
                 Button.inline(get_string("help_6"), data="yins_langs"),
             ],
             [Button.inline(get_string("help_8"), data="close")],
-        ],
+        ]
 
         @tgbot.on(events.NewMessage(incoming=True,
                   func=lambda e: e.is_private))
@@ -674,7 +674,8 @@ with bot:
                     ᴜᴘᴅᴀᴛᴇs : @MSPR0JECT
                     ━━━━━━━━━━━━━━━━━━
                     Klik button dibawah untuk melihat modul !""",
-                    buttons = main_help_button
+                    link_preview=False,
+                    buttons=[[custom.Button.Inline("dz menu", data="inline_yins"),]],
                 )
             await event.answer(
                 [result], switch_pm="👥 USERBOT PORTAL", switch_pm_param="start"
