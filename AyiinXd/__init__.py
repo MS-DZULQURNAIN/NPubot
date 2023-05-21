@@ -533,7 +533,7 @@ with bot:
                 await event.edit(
                     text,
                     file=logoyins,
-                    buttons=main_dz,
+                    buttons=buttons,
                     link_preview=False,
                 )
             else:
