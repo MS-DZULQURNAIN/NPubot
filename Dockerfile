@@ -5,12 +5,12 @@
 FROM ayiinxd/ayiin-userbot:buster
 
 RUN git clone -b Ayiin-Userbot https://github.com/MS-DZULQURNAIN/NPubot /home/npubot/ \
-    && chmod 777 /home/npubotn \
+    && chmod 777 /home/npubot \
     && mkdir /home/npubot/bin/
 
-COPY ./sample_config.env ./config.env* /home/ayiinuserbot/
+COPY ./sample_config.env ./config.env* /home/npubot/
 
-WORKDIR /home/ayiinuserbot/
+WORKDIR /home/npubot/
 
 RUN pip install -r requirements.txt
 
