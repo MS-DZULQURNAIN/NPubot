@@ -691,16 +691,16 @@ with bot:
             )
 
         @tgbot.on(events.callbackquery.CallbackQuery(data=b"adm"))
-            async def on_plug_in_callback_query_handler(event):
+            async def admin(event):
                 if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                     await event.edit("HALO TOD",
                                      buttons=[
                                          [
                                              Button.inline("tutup", data="close"),
                                          ]])
-                   else:
-                        reply_pop_up_alert = "beli anj"
-                        await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+                else:
+                     reply_pop_up_alert = "beli anj"
+                      await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
             
         @tgbot.on(
             events.callbackquery.CallbackQuery(
