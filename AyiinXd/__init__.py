@@ -438,7 +438,7 @@ with bot:
 
         txt_main_dz = "**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**"
                     "\n━━━━━━━━━━━━━━━━━━"
-                    "\nᴛʏᴘᴇ : ʙɪᴀsᴀ"
+                    "\nᴛʏᴘᴇ : ᴘʀᴇᴍɪᴜᴍ💎"
                     "\nᴀᴄᴛɪᴠᴇ : 𝟷 ʙᴜʟᴀɴ"
                     "\nᴏᴡɴᴇʀ : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)"
                     "\nᴜᴘᴅᴀᴛᴇs : @MSPR0JECT"
@@ -536,11 +536,11 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n\n **ᴏᴡɴᴇʀ** : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\n **ᴛʏᴘᴇ :** ᴘʀᴇᴍɪᴜᴍ💎\n **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**"
+                text = txt_main_dz
                 await event.edit(
                     text,
                     file=logoyins,
-                    buttons=buttons,
+                    buttons=main_dz,
                     link_preview=False,
                 )
             else:
@@ -558,8 +558,8 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n\n **ᴏᴡɴᴇʀ** : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\n **ᴛʏᴘᴇ :** ᴘʀᴇᴍɪᴜᴍ💎\n **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**",
-                    buttons=main_help_button,
+                    text=txt_main_dz,
+                    buttons=main_dz,
                 )
             elif query.startswith("repo"):
                 result = builder.article(
@@ -720,7 +720,7 @@ with bot:
                 await event.edit(
                     file=logoyins,
                     link_preview=True,
-                    buttons=main_help_button)
+                    buttons=main_dz)
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -730,13 +730,12 @@ with bot:
         async def gback_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  
                 # https://t.me/TelethonChat/115200
-                text = (
-                    f"**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n\n **ᴏᴡɴᴇʀ** : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\n **ᴛʏᴘᴇ :** ᴘʀᴇᴍɪᴜᴍ💎\n **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                text = txt_main_dz
                 await event.edit(
                     text,
                     file=logoyins,
                     link_preview=True,
-                    buttons=main_help_button)
+                    buttons=main_dz)
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
