@@ -675,7 +675,7 @@ with bot:
                     ━━━━━━━━━━━━━━━━━━
                     Klik button dibawah untuk melihat modul !""",
                     link_preview=False,
-                    buttons=[[custom.Button.Inline("dz menu", data="inline_yins"),]],
+                    buttons=[[custom.Button.inline("dz menu", data="inline_yins"),]],
                 )
             await event.answer(
                 [result], switch_pm="👥 USERBOT PORTAL", switch_pm_param="start"
