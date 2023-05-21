@@ -675,7 +675,6 @@ with bot:
                     ━━━━━━━━━━━━━━━━━━
                     Klik button dibawah untuk melihat modul !""",
                     buttons = main_help_button
-                    link_preview=False,
                 )
             await event.answer(
                 [result], switch_pm="👥 USERBOT PORTAL", switch_pm_param="start"
