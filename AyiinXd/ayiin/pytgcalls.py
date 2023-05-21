@@ -174,7 +174,7 @@ class Ayiin:
         if done:
             await bot.send_message(
                 self._current_chat,
-                "ɢᴡ ᴜᴅᴀʜ ɴᴀɪᴋ ᴛᴏᴅ
+                "ɢᴡ ᴜᴅᴀʜ ɴᴀɪᴋ ᴛᴏᴅ"
             )
             return True
         await bot.send_message(
