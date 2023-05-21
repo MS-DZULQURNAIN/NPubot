@@ -438,7 +438,7 @@ with bot:
 
         txt_main_dz = "**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n━━━━━━━━━━━━━━━━━━\nᴛʏᴘᴇ : ᴘʀᴇᴍɪᴜᴍ💎\nᴀᴄᴛɪᴠᴇ : 𝟷 ʙᴜʟᴀɴ\nᴏᴡɴᴇʀ : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\nᴜᴘᴅᴀᴛᴇs : @MSPR0JECT\n━━━━━━━━━━━━━━━━━━\nᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴅɪʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴍᴏᴅᴜʟ !"
                     
-        main_dz = [[Button.inline("dz main", data="reopen"),]]
+        main_dz = [[Button.inline("ᴍᴇɴᴜ ᴅᴢ ᴜsᴇʀʙᴏᴛ💎", data="reopen"),]]
         main_help_button = [
             [
                 Button.inline(get_string("help_4"), data="inline_yins"),
@@ -671,7 +671,7 @@ with bot:
                         []),
                     text=txt_main_dz,
                     link_preview=False,
-                    buttons=[[custom.Button.inline("dz menu", data="reopen"),]],
+                    buttons=[[custom.Button.inline("ᴍᴇɴᴜ ᴅᴢ ᴜsᴇʀʙᴏᴛ💎", data="reopen"),]],
                 )
             await event.answer(
                 [result], switch_pm="👥 USERBOT PORTAL", switch_pm_param="start"
