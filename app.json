@@ -26,6 +26,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
+      "value": "aef86e74-bada-4a92-bebf-38c22115c271", 
       "required": true
     },
     "BOT_TOKEN": {
