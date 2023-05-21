@@ -436,9 +436,7 @@ with bot:
             r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)"
         )
 
-        txt_main_dz = "**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n━━━━━━━━━━━━━━━━━━\nᴛʏᴘᴇ : ᴘʀᴇᴍɪᴜᴍ💎\nᴀᴄᴛɪᴠᴇ : 𝟷 ʙᴜʟᴀɴ\nᴏᴡɴᴇʀ : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\nᴜᴘᴅᴀᴛᴇs : @MSPR0JECT\n━━━━━━━━━━━━━━━━━━\n
-                    "\n━━━━━━━━━━━━━━━━━━"
-                    "\nKlik button dibawah untuk melihat modul !"
+        txt_main_dz = "**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**\n━━━━━━━━━━━━━━━━━━\nᴛʏᴘᴇ : ᴘʀᴇᴍɪᴜᴍ💎\nᴀᴄᴛɪᴠᴇ : 𝟷 ʙᴜʟᴀɴ\nᴏᴡɴᴇʀ : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)\nᴜᴘᴅᴀᴛᴇs : @MSPR0JECT\n━━━━━━━━━━━━━━━━━━\nᴋʟɪᴋ ʙᴜᴛᴛᴏɴ ᴅɪʙᴀᴡᴀʜ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ ᴍᴏᴅᴜʟ !"
                     
         main_dz = [[Button.inline("dz main", data="reopen"),]]
         main_help_button = [
@@ -671,14 +669,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**"
-                    "\n━━━━━━━━━━━━━━━━━━"
-                    "\nᴛʏᴘᴇ : ʙɪᴀsᴀ"
-                    "\nᴀᴄᴛɪᴠᴇ : 𝟷 ʙᴜʟᴀɴ"
-                    "\nᴏᴡɴᴇʀ : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)"
-                    "\nᴜᴘᴅᴀᴛᴇs : @MSPR0JECT"
-                    "\n━━━━━━━━━━━━━━━━━━"
-                    "\nKlik button dibawah untuk melihat modul !",
+                    text=txt_main_dz,
                     link_preview=False,
                     buttons=[[custom.Button.inline("dz menu", data="reopen"),]],
                 )
