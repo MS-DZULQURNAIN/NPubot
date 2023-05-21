@@ -8,9 +8,9 @@ RUN git clone -b Ayiin-Userbot https://github.com/MS-DZULQURNAIN/NPubot /home/ay
     && chmod 777 /home/ayiin-userbot \
     && mkdir /home/ayiin-userbot /bin/
 
-COPY ./sample_config.env ./config.env* /home/npubot/
+COPY ./sample_config.env ./config.env* /home/ayiin-userbot/
 
-WORKDIR /home/npubot/
+WORKDIR /home/ayiin-userbot/
 
 RUN pip install -r requirements.txt
 
