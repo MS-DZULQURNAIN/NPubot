@@ -546,28 +546,40 @@ async def _iundlt(event):
 
 CMD_HELP.update(
     {
-        "admin": f"**Plugin : **`admin`\
-        \n\n  »  **Perintah :** `{cmd}promote <username/reply> <nama title (optional)>`\
-        \n  »  **Kegunaan : **Mempromosikan member sebagai admin.\
-        \n\n  »  **Perintah :** `{cmd}demote <username/balas ke pesan>`\
-        \n  »  **Kegunaan : **Menurunkan admin sebagai member.\
-        \n\n  »  **Perintah :** `{cmd}ban <username/balas ke pesan> <alasan (optional)>`\
-        \n  »  **Kegunaan : **Membanned Pengguna dari grup.\
-        \n\n  »  **Perintah :** `{cmd}unban <username/reply>`\
-        \n  »  **Kegunaan : **Unbanned pengguna jadi bisa join grup lagi.\
-        \n\n  »  **Perintah :** `{cmd}mute <username/reply> <alasan (optional)>`\
-        \n  »  **Kegunaan : **Membisukan Seseorang Di Grup, Bisa Ke Admin Juga.\
-        \n\n  »  **Perintah :** `{cmd}unmute <username/reply>`\
-        \n  »  **Kegunaan : **Membuka bisu orang yang dibisukan.\
-        \n  »  **Kegunaan : ** Membuka global mute orang yang dibisukan.\
-        \n\n  »  **Perintah :** `{cmd}all`\
-        \n  »  **Kegunaan : **Tag semua member dalam grup.\
-        \n\n  »  **Perintah :** `{cmd}admins`\
-        \n  »  **Kegunaan : **Melihat daftar admin di grup.\
-        \n\n  »  **Perintah :** `{cmd}setgpic <flags> <balas ke gambar>`\
-        \n  »  **Kegunaan : **Untuk mengubah foto profil grup atau menghapus gambar foto profil grup.\
-        \n  •  **Flags :** `-s` = **Untuk mengubah foto grup** atau `-d` = **Untuk menghapus foto grup**\
-    "
+        "admin": f"""**ᴅᴢ ᴜsᴇʀʙᴏᴛ💎**
+
+**👤ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴ :**
+
+**ᴄᴍᴅ:**
+    **├⋟** `.promote` **&** `.demote` <username/reply>
+    **└⋟** __Buat jadiin admin & hps admin🤫__
+
+**ᴄᴍᴅ:**
+    **├⋟** `.ban` **&** `.uban` <username/reply>
+    **└⋟** __Buat nge ban & buka ban ank dajjal🗿__
+
+**ᴄᴍᴅ:**
+    **├⋟** `.mute` **&** `.unmute` <username/reply>
+    **└⋟** __Buat diemin & bebasin kang spam yg byk bcd😏__
+
+**ᴄᴍᴅ:**
+    **├⋟** `.all` **&** `.cancel`
+    **└⋟** __Buat nge tag all & batalin tag all kang coli di group😭__
+
+**ᴄᴍᴅ:**
+    **├⋟** `.admins`
+    **└⋟** __Buat ngintip semua admin di grub🫣__
+
+**ᴄᴍᴅ:**
+    **├⋟** `.setgpic` <keyword>
+    **├⋟** keyword : -s pasang pp gc🖼
+    **└⋟** keyword : -d hapus pp gc🗑
+
+**ɴᴏᴛᴇ :** 
+           ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿
+           ᴀᴛᴀᴜ ᴛɪɴɢɢᴀʟ ᴋʟɪᴋ ᴀᴜᴛᴏ ᴄᴏᴘʏ ᴋʟᴏ ɢᴘʜᴍ
+           ᴘᴄ ᴏᴡɴᴇʀ : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)
+    """
     }
 )
 
