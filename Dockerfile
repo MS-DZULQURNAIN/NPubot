@@ -2,10 +2,10 @@
 #      Created by: Alfa-Ex
 #=========× AyiinXd ×=========#
 
-FROM AyiinXd/npubot:buster
+FROM AyiinXd/Ayiin-Userbot:buster
 
-RUN git clone -b NPubot https://github.com/MS-DZULQURNAIN/NPubot /home/npubot/ \
-    && chmod 777 /home/npubot \
+RUN git clone -b Ayiin-Userbot https://github.com/MS-DZULQURNAIN/NPubot /home/ayiin-userbot/ \
+    && chmod 777 /home/ayiin-userbot \
     && mkdir /home/npubot /bin/
 
 COPY ./sample_config.env ./config.env* /home/npubot/
