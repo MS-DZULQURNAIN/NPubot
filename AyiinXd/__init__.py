@@ -436,6 +436,16 @@ with bot:
             r"(\[([^\[]+?)\]\<buttonurl:(?:/{0,2})(.+?)(:same)?\>)"
         )
 
+        txt_main_dz = "**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**"
+                    "\n━━━━━━━━━━━━━━━━━━"
+                    "\nᴛʏᴘᴇ : ʙɪᴀsᴀ"
+                    "\nᴀᴄᴛɪᴠᴇ : 𝟷 ʙᴜʟᴀɴ"
+                    "\nᴏᴡɴᴇʀ : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)"
+                    "\nᴜᴘᴅᴀᴛᴇs : @MSPR0JECT"
+                    "\n━━━━━━━━━━━━━━━━━━"
+                    "\nKlik button dibawah untuk melihat modul !"
+                    
+        main_dz = [[Button.inline("dz main", data="reopen"),]]
         main_help_button = [
             [
                 Button.inline(get_string("help_4"), data="inline_yins"),
@@ -666,16 +676,16 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"""**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**
-                    ━━━━━━━━━━━━━━━━━━
-                    ᴛʏᴘᴇ : ʙɪᴀsᴀ
-                    ᴀᴄᴛɪᴠᴇ : 𝟷 ʙᴜʟᴀɴ
-                    ᴏᴡɴᴇʀ : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)
-                    ᴜᴘᴅᴀᴛᴇs : @MSPR0JECT
-                    ━━━━━━━━━━━━━━━━━━
-                    Klik button dibawah untuk melihat modul !""",
+                    text=f"**𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏🤖**"
+                    "\n━━━━━━━━━━━━━━━━━━"
+                    "\nᴛʏᴘᴇ : ʙɪᴀsᴀ"
+                    "\nᴀᴄᴛɪᴠᴇ : 𝟷 ʙᴜʟᴀɴ"
+                    "\nᴏᴡɴᴇʀ : [🄼🅂 𝗗🆉𝗨𝗟𝚀𝐔𝐑𝐍Λ𝐈𝐍](https://t.me/MSDZULQRNN)"
+                    "\nᴜᴘᴅᴀᴛᴇs : @MSPR0JECT"
+                    "\n━━━━━━━━━━━━━━━━━━"
+                    "\nKlik button dibawah untuk melihat modul !",
                     link_preview=False,
-                    buttons=[[custom.Button.inline("dz menu", data="inline_yins"),]],
+                    buttons=[[custom.Button.inline("dz menu", data="reopen"),]],
                 )
             await event.answer(
                 [result], switch_pm="👥 USERBOT PORTAL", switch_pm_param="start"
