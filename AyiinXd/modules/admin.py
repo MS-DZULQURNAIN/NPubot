@@ -563,7 +563,7 @@ CMD_HELP.update(
         \n\n**ᴄᴍᴅ:**\
         \n  **├⋟** `{cmd}admins`\
         \n  **└⋟** __Buat ngintip semua admin di grub🫣__\
-        \n\n**ᴄᴍᴅ:**\n
+        \n\n**ᴄᴍᴅ:**\
         \n  **├⋟** `{cmd}setgpic` <keyword>\
         \n  **├⋟** keyword : -s pasang pp gc🖼\
         \n  **└⋟** keyword : -d hapus pp gc🗑\
