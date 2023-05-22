@@ -546,25 +546,25 @@ async def _iundlt(event):
 
 CMD_HELP.update(
     {
-        "DZ admin": f"**ᴅᴢ ᴜsᴇʀʙᴏᴛ💎** \
+        "DZ admin": "**ᴅᴢ ᴜsᴇʀʙᴏᴛ💎** \
         \n\n**👤ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴ :** \
         \n\n**ᴄᴍᴅ:** \
-        \n    **├⋟** `{cmd}promote` **&** `{cmd}demote` <username/reply> \
+        \n    **├⋟** `.promote` **&** `.demote` <username/reply> \
         \n    **└⋟** __Buat jadiin admin & hps admin🤫__ \
         \n\n**ᴄᴍᴅ:** \
-        \n    **├⋟** `{cmd}ban` **&** `{cmd}uban` <username/reply> \
+        \n    **├⋟** `.ban` **&** `.uban` <username/reply> \
         \n    **└⋟** __Buat nge ban & buka ban ank dajjal🗿__ \
         \n\n**ᴄᴍᴅ:** \
-        \n    **├⋟** `{cmd}mute` **&** `{cmd}unmute` <username/reply> \
+        \n    **├⋟** `.mute` **&** `.unmute` <username/reply> \
         \n    **└⋟** __Buat diemin & bebasin kang spam yg byk bcd😏__ \
         \n\n**ᴄᴍᴅ:** \
-        \n    **├⋟** `{cmd}all` **&** `{cmd}cancel` \
+        \n    **├⋟** `.all` **&** `.cancel` \
         \n    **└⋟** __Buat nge tag all & batalin tag all kang coli di group😭__ \
         \n\n**ᴄᴍᴅ:** \
-        \n    **├⋟** `{cmd}admins` \
+        \n    **├⋟** `.admins` \
         \n    **└⋟** __Buat ngintip semua admin di grub🫣__ \
         \n\n**ᴄᴍᴅ:** \
-        \n    **├⋟** `{cmd}setgpic` <keyword> \
+        \n    **├⋟** `.setgpic` <keyword> \
         \n    **├⋟** keyword : -s pasang pp gc🖼 \
         \n    **└⋟** keyword : -d hapus pp gc🗑 \
         \n\n**ɴᴏᴛᴇ :** \
