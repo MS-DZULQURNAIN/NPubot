@@ -574,16 +574,23 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "pin": f"**Plugin : **`pin`\
-        \n\n  »  **Perintah :** `{cmd}pin` <reply chat>\
-        \n  »  **Kegunaan : **Untuk menyematkan pesan dalam grup.\
-        \n\n  »  **Perintah :** `{cmd}pin loud` <reply chat>\
-        \n  »  **Kegunaan : **Untuk menyematkan pesan dalam grup (tanpa notifikasi) / menyematkan secara diam diam.\
-        \n\n  »  **Perintah :** `{cmd}unpin` <reply chat>\
-        \n  »  **Kegunaan : **Untuk melepaskan pin pesan dalam grup.\
-        \n\n  »  **Perintah :** `{cmd}unpin all`\
-        \n  »  **Kegunaan : **Untuk melepaskan semua sematan pesan dalam grup.\
-    "
+        "pin": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ᴘɪɴ:         
+
+ᴄᴍᴅ:         
+  ├⋟ .pin & .unpin <ʀᴇᴘʟʏ>        
+  └⋟ ʙᴜᴀᴛ ᴘɪɴ & ʜᴘs ᴘɪɴ ᴅɪ ɢᴄ     
+
+ᴄᴍᴅ:         
+  ├⋟ .unpin all
+  └⋟ ʙᴜᴀᴛ ʜᴘs sᴇᴍᴜᴀ ᴘɪɴ ᴅɪ ɢᴄ             
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
 
