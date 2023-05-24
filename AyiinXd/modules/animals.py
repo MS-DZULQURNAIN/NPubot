@@ -26,10 +26,10 @@ from AyiinXd.ayiin import edit_or_reply, ayiin_cmd
 
 @ayiin_cmd(pattern="shibe$")
 async def shibe(event):
-    xx = await edit_or_reply(event, "`Processing...`")
+    xx = await edit_or_reply(event, "`otw nyari anj...`")
     response = requests.get("https://shibe.online/api/shibes").json()
     if not response:
-        await event.edit("**Tidak bisa menemukan Anjing.**")
+        await event.edit("**kaga nemu Anjing.**")
         return
     await event.client.send_message(entity=event.chat_id, file=response[0])
     await xx.delete()
@@ -37,10 +37,10 @@ async def shibe(event):
 
 @ayiin_cmd(pattern="cat$")
 async def cats(event):
-    xx = await edit_or_reply(event, "`Processing...`")
+    xx = await edit_or_reply(event, "`otw nyari kucing...`")
     response = requests.get("https://shibe.online/api/cats").json()
     if not response:
-        await event.edit("**Tidak bisa menemukan kucing.**")
+        await event.edit("**kaga nemu kucing.**")
         return
     await event.client.send_message(entity=event.chat_id, file=response[0])
     await xx.delete()
@@ -48,11 +48,22 @@ async def cats(event):
 
 CMD_HELP.update(
     {
-        "animals": f"**Plugin : **`animals`\
-        \n\n  »  **Perintah :** `{cmd}cat`\
-        \n  »  **Kegunaan : **Untuk Mengirim gambar kucing secara random.\
-        \n\n  »  **Perintah :** `{cmd}shibe`\
-        \n  »  **Kegunaan : **Untuk Mengirim gambar random dari anjing jenis Shiba.\
-    "
+        "ᴀɴɪᴍᴀʟs": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ᴀɴɪᴍᴀʟs:         
+
+ᴄᴍᴅ:         
+  ├⋟ .cat
+  └⋟ ᴜɴᴛᴜᴋ Mᴇɴɢɪʀɪᴍ ɢᴀᴍʙᴀʀ ᴋᴜᴄɪɴɢ sᴇᴄᴀʀᴀ ʀᴀɴᴅᴏᴍ
+
+ᴄᴍᴅ:         
+  ├⋟ .shibe
+  └⋟ ᴜɴᴛᴜᴋ ᴍᴇɴɢɪʀɪᴍ ɢᴀᴍʙᴀʀ ʀᴀɴᴅᴏᴍ ᴅᴀʀɪ ᴀɴJɪɴɢ Jᴇɴɪs sʜɪʙᴀ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
