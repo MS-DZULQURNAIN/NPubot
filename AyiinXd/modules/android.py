@@ -318,19 +318,34 @@ async def twrp(request):
 
 CMD_HELP.update(
     {
-        "android": f"**Plugin : **`android`\
-        \n\n  »  **Perintah :** `{cmd}magisk`\
-        \n  »  **Kegunaan : **Dapatkan rilis Magisk terbaru \
-        \n\n  »  **Perintah :** `{cmd}device <codename>`\
-        \n  »  **Kegunaan : **Dapatkan info tentang nama kode atau model perangkat android. \
-        \n\n  »  **Perintah :** `{cmd}codename <brand> <device>`\
-        \n  »  **Kegunaan : **Cari nama kode perangkat android. \
-        \n\n  »  **Perintah :** `{cmd}pixeldl` **<download.pixelexperience.org>**\
-        \n  »  **Kegunaan : **Unduh ROM pengalaman piksel ke server bot pengguna Anda. \
-        \n\n  »  **Perintah :** `{cmd}specs <brand> <device>`\
-        \n  »  **Kegunaan : **Dapatkan info spesifikasi perangkat. \
-        \n\n  »  **Perintah :** `{cmd}twrp <codename>`\
-        \n  »  **Kegunaan : **Dapatkan unduhan twrp terbaru untuk perangkat android. \
-    "
+        "ᴀɴᴅʀᴏɪᴅ": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ᴀɴᴅʀᴏɪᴅ :         
+
+ᴄᴍᴅ:         
+    ├⋟ .magisk
+    └⋟ ᴅᴀᴘᴀᴛᴋᴀɴ ʀɪʟɪs ᴍᴀɢɪsᴋ ᴛᴇʀʙᴀʀᴜ
+
+ᴄᴍᴅ:         
+    ├⋟ .device <ᴄᴏᴅᴇɴᴀᴍᴇ>
+    └⋟ Dᴀᴘᴀᴛᴋᴀɴ ɪɴғᴏ ᴛᴇɴᴛᴀɴɢ ɴᴀᴍᴀ ᴋᴏᴅᴇ ᴀᴛᴀᴜ ᴍᴏᴅᴇʟ ᴘᴇʀᴀɴɢᴋᴀᴛ ᴀɴᴅʀᴏɪᴅ         
+
+ᴄᴍᴅ:         
+    ├⋟ .specs <ʙʀᴀɴᴅ> <ᴅᴇᴠɪᴄᴇ>     
+    └⋟ Dᴀᴘᴀᴛᴋᴀɴ ɪɴғᴏ sᴘᴇsɪғɪᴋᴀsɪ ᴘᴇʀᴀɴɢᴋᴀᴛ  
+
+ᴄᴍᴅ:         
+    ├⋟ .twrp <ᴄᴏᴅᴇɴᴀᴍᴇ>           
+    └⋟ Dᴀᴘᴀᴛᴋᴀɴ ᴜɴᴅᴜʜᴀɴ ᴛᴡʀᴘ ᴛᴇʀʙᴀʀᴜ ᴜɴᴛᴜᴋ ᴘᴇʀᴀɴɢᴋᴀᴛ ᴀɴᴅʀᴏɪᴅ. 
+
+ᴄᴍᴅ:         
+    ├⋟ .codename <ʙʀᴀɴᴅ> <ᴅᴇᴠɪᴄᴇ>         
+    └⋟ Cᴀʀɪ ɴᴀᴍᴀ ᴋᴏᴅᴇ ᴘᴇʀᴀɴɢᴋᴀᴛ ᴀɴᴅʀᴏɪᴅ       
+
+ɴᴏᴛᴇ :         
+        ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+        ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
