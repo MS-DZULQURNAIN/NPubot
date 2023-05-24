@@ -36,9 +36,18 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "aeshtetic": f"**Plugin : **`aeshtetic`\
-        \n\n  »  **Perintah :** `{cmd}ae <teks>`\
-        \n  »  **Kegunaan : **Mengubah font teks Menjadi aeshtetic.\
-    "
+        "ᴀᴇsᴛʜᴇᴛɪᴄ": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ᴀᴇsᴛʜᴇᴛɪᴄ:         
+
+ᴄᴍᴅ:         
+    ├⋟ .ae <ᴛᴇxᴛ>
+    └⋟ ʙᴜᴀᴛ ᴍᴇɴɢᴜʙᴀʜ ғᴏɴᴛ ᴛᴇxᴛ Jᴅ ᴀᴇsᴛʜᴇᴛɪᴄ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
