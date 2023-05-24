@@ -182,11 +182,18 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "afk": f"**Plugin : **`afk`\
-        \n\n  »  **Perintah :** `{cmd}afk` <alasan> bisa <sambil reply sticker/foto/gif/media>\
-        \n  »  **Kegunaan : **Memberi tahu kalau Master sedang afk bisa dengan menampilkan media keren ketika seseorang menandai atau membalas salah satu pesan atau dm Anda.\
-        \n\n  »  **Perintah :** `{cmd}off`\
-        \n  »  **Kegunaan : **Memberi tahu kalau Master sedang OFFLINE, dan menguubah nama belakang menjadi 【 OFF 】 \
-    "
+        "ᴀғᴋ": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ᴀғᴋ:         
+
+ᴄᴍᴅ:         
+    ├⋟ .afk <ᴀʟᴀsᴀɴ/ʀᴇᴘʟʏ sᴛɪᴄᴋᴇʀ,ғᴏᴛᴏ,ɢɪғ,ᴍᴇᴅɪᴀ>
+    └⋟ ʙᴜᴀᴛ ɴɢᴀsɪʜ ᴛᴀᴜ ᴋᴇ ᴘᴇɴɢɪʀɪᴍ ᴘᴇsᴀɴ/ᴍᴇᴍʙᴀʟᴀs ᴘᴇsᴀɴ ᴍᴜ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
