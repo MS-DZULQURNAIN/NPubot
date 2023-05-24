@@ -546,7 +546,7 @@ async def _iundlt(event):
 
 CMD_HELP.update(
     {
-        "DZ admin": "𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎\
+        "ᴀᴅᴍɪɴ": "𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎\
         \n\n👤ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴ : \
         \n\nᴄᴍᴅ: \
         \n    ├⋟ `.promote` & `.demote` <ᴜsᴇʀɴᴀᴍᴇ/ʀᴇᴘʟʏ> \
@@ -574,7 +574,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "pin": """
+        "ᴘɪɴ": """
 𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
 👤ᴘᴇʀɪɴᴛᴀʜ ᴘɪɴ:         
@@ -597,7 +597,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "undelete": """
+        "ᴜɴᴅᴇʟᴇᴛᴇ": """
 𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
 👤ᴘᴇʀɪɴᴛᴀʜ ᴜɴᴅᴇʟᴇᴛᴇ:         
@@ -616,23 +616,41 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "gmute": f"**Plugin : **`gmute`\
-        \n\n  »  **Perintah :** `{cmd}gmute` <username/reply> <alasan (optional)>\
-        \n  »  **Kegunaan : **Untuk Membisukan Pengguna di semua grup yang kamu admin.\
-        \n\n  »  **Perintah :** `{cmd}ungmute` <username/reply>\
-        \n  »  **Kegunaan : **Untuk Membuka global mute Pengguna di semua grup yang kamu admin.\
-    "
+        "ɢᴍᴜᴛᴇ": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ɢᴍᴜᴛᴇ:         
+
+ᴄᴍᴅ:         
+  ├⋟ .gmute & .ungmute
+  └⋟ ʙᴜᴀᴛ ɢʟᴏʙᴀʟ ᴍᴜᴛᴇ & ʙᴜᴋᴀ ɢᴍᴜᴛᴇ ᴅɪ sᴇᴍᴜᴀ ɢᴄ ʏɢ ʟᴜ Jᴅ ᴀᴅᴍɪɴ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
 
 
 CMD_HELP.update(
     {
-        "zombies": f"**Plugin : **`zombies`\
-        \n\n  »  **Perintah :** `{cmd}zombies`\
-        \n  »  **Kegunaan : **Untuk mencari akun terhapus dalam grup\
-        \n\n  »  **Perintah :** `{cmd}zombies clean`\
-        \n  »  **Kegunaan : **untuk menghapus Akun Terhapus dari grup.\
-    "
+        "ᴢᴏᴍʙɪᴇs": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ᴢᴏᴍʙɪᴇs:         
+
+ᴄᴍᴅ:         
+  ├⋟ .zombies   
+  └⋟ ʙᴜᴀᴛ ᴄᴀʀɪ ᴀᴋᴜɴ ᴛᴇʀʜᴀᴘᴜs ᴅɪ ɢᴄ 
+
+ᴄᴍᴅ:         
+  ├⋟ .zombies clean
+  └⋟ ʙᴜᴀᴛ ʜᴀᴘᴜs ᴀᴋᴜɴ ᴛᴇʀʜᴀᴘᴜs ᴅɪ ɢᴄ      
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """"
     }
 )
