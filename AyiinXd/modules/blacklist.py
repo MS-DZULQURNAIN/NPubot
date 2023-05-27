@@ -91,13 +91,26 @@ async def on_delete_blacklist(rmbl):
 
 CMD_HELP.update(
     {
-        "blacklist": f"**Plugin : **`blacklist`\
-        \n\n  »  **Perintah :** `{cmd}listbl`\
-        \n  »  **Kegunaan : **Melihat daftar blacklist yang aktif di obrolan.\
-        \n\n  »  **Perintah :** `{cmd}addbl` <kata>\
-        \n  »  **Kegunaan : **Memasukan pesan ke blacklist 'kata blacklist'.\
-        \n\n  »  **Perintah :** `{cmd}rmbl` <kata>\
-        \n  »  **Kegunaan : **Menghapus kata blacklist.\
-    "
+        "blacklist": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ʙʟᴀᴄᴋʟɪsᴛ :         
+
+ᴄᴍᴅ:         
+  ├⋟ .listbl
+  └⋟ ᴍᴇʟɪʜᴀᴛ ᴅᴀғᴛᴀʀ ʙʟᴀᴄᴋʟɪsᴛ ʏᴀɴɢ ᴀᴋᴛɪғ ᴅɪ ɢᴄ
+
+ᴄᴍᴅ:         
+  ├⋟ .addbl <ᴋᴀᴛᴀ>
+  └⋟ ᴍᴇᴍᴀsᴜᴋᴀɴ ᴘᴇsᴀɴ ᴋᴇ ʙʟᴀᴄᴋʟɪsᴛ 'ᴋᴀᴛᴀ ʙʟᴀᴄᴋʟɪsᴛ'
+
+ᴄᴍᴅ:         
+  ├⋟ .rmbl <ᴋᴀᴛᴀ>
+  └⋟ ᴍᴇɴɢʜᴀᴘᴜs ᴋᴀᴛᴀ ʙʟᴀᴄᴋʟɪsᴛ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
