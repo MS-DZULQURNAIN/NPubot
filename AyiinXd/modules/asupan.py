@@ -15,7 +15,7 @@ from AyiinXd.ayiin import ayiin_cmd, edit_or_reply
 
 @ayiin_cmd(pattern="asupan$")
 async def _(event):
-    xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
+    xx = await edit_or_reply(event, "`Sabar anj...`")
     try:
         asupannya = [
             asupan
@@ -28,51 +28,29 @@ async def _(event):
         )
         await xx.delete()
     except Exception:
-        await xx.edit("**Tidak bisa menemukan video asupan.**")
+        await xx.edit("**Kaga ada anj, tobat napa**")
 
 
-@ayiin_cmd(pattern="desahcewe$")
+@ayiin_cmd(pattern="moan$")
 async def _(event):
     if event.chat_id in BLACKLIST_CHAT:
         return await edit_or_reply(
             event, "**Perintah ini Dilarang digunakan di Group ini**"
         )
-    xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
+    xx = await edit_or_reply(event, "`Sabar anj...`")
     try:
-        desahcewe = [
-            desah
+        moan = [
+            moan
             async for desah in event.client.iter_messages(
-                "@desahancewesangesange", filter=InputMessagesFilterVoice
+                "@cachemoan", filter=InputMessagesFilterVoice
             )
         ]
         await event.client.send_file(
-            event.chat_id, file=choice(desahcewe), reply_to=event.reply_to_msg_id
+            event.chat_id, file=choice(moan), reply_to=event.reply_to_msg_id
         )
         await xx.delete()
     except Exception:
-        await xx.edit("**Tidak bisa menemukan desahan cewe.**")
-
-
-@ayiin_cmd(pattern="desahcowo$")
-async def _(event):
-    if event.chat_id in BLACKLIST_CHAT:
-        return await edit_or_reply(
-            event, "**Perintah ini Dilarang digunakan di Group ini**"
-        )
-    xx = await edit_or_reply(event, "`Tunggu Sebentar...`")
-    try:
-        desahcowo = [
-            desah
-            async for desah in event.client.iter_messages(
-                "@desahancowokkkk", filter=InputMessagesFilterVoice
-            )
-        ]
-        await event.client.send_file(
-            event.chat_id, file=choice(desahcowo), reply_to=event.reply_to_msg_id
-        )
-        await xx.delete()
-    except Exception:
-        await xx.edit("**Tidak bisa menemukan desahan cowo.**")
+        await xx.edit("**Kaga ada anj, tobat napa**")
 
 
 CMD_HELP.update(
