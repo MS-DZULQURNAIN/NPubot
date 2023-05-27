@@ -318,7 +318,7 @@ async def twrp(request):
 
 CMD_HELP.update(
     {
-        "ᴀɴᴅʀᴏɪᴅ": """
+        "android": """
 𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
 👤ᴘᴇʀɪɴᴛᴀʜ ᴀɴᴅʀᴏɪᴅ :         
