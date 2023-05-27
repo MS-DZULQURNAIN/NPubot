@@ -39,14 +39,14 @@ async def _(event):
         )
     xx = await edit_or_reply(event, "`Sabar anj...`")
     try:
-        moan = [
+        moannya = [
             moan
             async for desah in event.client.iter_messages(
                 "@cachemoan", filter=InputMessagesFilterVoice
             )
         ]
         await event.client.send_file(
-            event.chat_id, file=choice(moan), reply_to=event.reply_to_msg_id
+            event.chat_id, file=choice(moannya), reply_to=event.reply_to_msg_id
         )
         await xx.delete()
     except Exception:
