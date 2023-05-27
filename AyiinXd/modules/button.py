@@ -99,14 +99,22 @@ def build_keyboard(buttons):
 
 CMD_HELP.update(
     {
-        "button": f"**Plugin : **`button`\
-        \n\n  »  **Perintah :** `{cmd}cbutton` <text> [Name on button]<buttonurl:link you want to open>\
-        \n  »  **Kegunaan : **Untuk membuat pesan button\
-        \n  •  **Examples : **`{cmd}cbutton test [google]<buttonurl:https://www.google.com> [Channel]<buttonurl:https://t.me/nandapediastore:same> [Support]<buttonurl:https://t.me/nandapedialuxurymember>`\
-        \n  •  **NOTE :** Untuk menggunakan ini, anda memerlukan bot anda dan harus ada di grup/channel di mana anda menggunakan\
-        \n\n  »  **Perintah :** `{cmd}ibutton` <text> [Name on button]<buttonurl:link you want to open>\
-        \n  »  **Kegunaan : **Untuk membuat pesan button melalui inline\
-        \n  •  **Examples : **`{cmd}ibutton test [google]<buttonurl:https://www.google.com> [Channel]<buttonurl:https://t.me/nandapediastore:same> [Support]<buttonurl:https://t.me/nandapedialuxurymember>`\
-    "
+        "button": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ʙᴜᴛᴛᴏɴ :         
+
+ᴄᴍᴅ:         
+  ├⋟ .cbutton <ᴛᴇxᴛ> [ɴᴀᴍᴀ]<buttonurl:ʟɪɴᴋ ᴇʟᴜ>
+  └⋟ ʙᴜᴀᴛ ᴘᴇsᴀɴ ʙᴜᴛᴛᴏɴ ᴅɪ ᴄʜ (ᴛᴀᴍʙᴀʜᴋᴀɴ @DZuserbot sʙɢ ᴀᴅᴍɪɴ ᴅɪ ᴄʜ ʟᴜ)
+
+ᴄᴍᴅ:         
+  ├⋟ .ibutton <ᴛᴇxᴛ> [ɴᴀᴍᴀ]<buttonurl:ʟɪɴᴋ ᴇʟᴜ>
+  └⋟ ʙᴜᴀᴛ ᴘᴇsᴀɴ ʙᴜᴛᴛᴏɴᴜʀʟ ᴅɪ ᴘᴇʀsᴏɴᴀʟ/ᴅɪᴄʜᴀᴛ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
