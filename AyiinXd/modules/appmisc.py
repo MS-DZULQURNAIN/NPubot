@@ -779,76 +779,110 @@ async def xcursive(cursivelite):
 
 CMD_HELP.update(
     {
-        "watch": f"**Plugin : **`watch`\
-        \n\n  »  **Perintah :** `{cmd}watch` <nama movie/tv>\
-        \n  »  **Kegunaan : **Untuk Mengetahui Detail Tentang Film.\
-    "
+        "watch": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ᴡᴀᴛᴄʜ :         
+
+ᴄᴍᴅ:         
+    ├⋟ .watch <ɴᴀᴍᴀ ᴍᴏᴠɪᴇ/ᴛᴠ>
+    └⋟ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇᴛᴀʜᴜɪ ᴅᴇᴛᴀɪʟ ᴛᴇɴᴛᴀɴɢ ғɪʟᴍ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
 
 CMD_HELP.update(
     {
-        "randompp": f"**Plugin : **`randompp`\
-        \n\n  »  **Perintah :** `{cmd}randompp`\
-        \n  »  **Kegunaan : **Otomatis Mengganti Foto Profile Mu, Untuk Stop ini Ketik .restart\
-    "
+        "glitch": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ɢʟɪᴛᴄʜ :         
+
+ᴄᴍᴅ:         
+    ├⋟ .glitch <ʀᴇᴘʟʏ ғᴏᴛᴏ>
+    └⋟ ᴜɴᴛᴜᴋ ᴍᴇᴍʙᴜᴀᴛ ɢɪғ ɢʟɪᴛᴄʜ ᴅᴀʀɪ ғᴏᴛᴏ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
 
 CMD_HELP.update(
     {
-        "glitch": f"**Plugin : **`glitch`\
-        \n\n  »  **Perintah :** `{cmd}glitch` <Reply Ke Media>\
-        \n  »  **Kegunaan : **Memberikan Glitch (Gif , Stickers , Gambar, Video) Ke Gif Dan Level Glitch 1 - 8.\nJika Tidak Memberikan Level Otomatis Default Ke Level 2\
-    "
+        "grab": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ɢʀᴀʙ :         
+
+ᴄᴍᴅ:         
+    ├⋟ .grab 
+    └⋟ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴀᴍʙɪʟ ғᴏᴛᴏ ᴘʀᴏғɪʟ ᴅᴀʀɪ ᴘᴇɴɢɢᴜɴᴀ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
 
 CMD_HELP.update(
     {
-        "grab": f"**Plugin : **`grab`\
-        \n\n  »  **Perintah :** `{cmd}grab` <reply ke user yang ingin di grab>\
-        \n  »  **Kegunaan : **Balas Ke Pesan Pengguna Telegram dan Ketik `{cmd}grab` Atau `{cmd}grab <count>` Untuk Mengambil Foto Profil.\
-        \n\n  »  **Perintah :** `{cmd}grab` <jumlah foto>\
-        \n  »  **Kegunaan : **Untuk Mengambil Foto Profil dengan jumlah foto yg di inginkan.\
-    "
+        "bannedall": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ʙᴀɴɴᴇᴅᴀʟʟ :         
+
+ᴄᴍᴅ:         
+  ├⋟ .remove
+  └⋟ ᴜɴᴛᴜᴋ Mᴇɴɢᴀɴᴀʟɪsᴀ ᴜsᴇʀ ᴅᴀʀɪ ɢʀᴜᴘ sᴇᴄᴀʀᴀ sᴘᴇsɪғɪᴋ
+
+ᴄᴍᴅ:         
+  ├⋟ .remove <ᴋᴇʏᴡᴏʀᴅ>
+  ├⋟ ᴋᴇʏᴡᴏʀᴅ : d
+  ├⋟ ʙᴜᴀᴛ ᴋɪᴄᴋ ᴜsᴇʀ ᴅᴀʀɪ ɢᴄ sᴇᴄᴀʀᴀ sᴘᴇsɪғɪᴋ
+  ├⋟ ᴋᴇʏᴡᴏʀᴅ : y
+  ├⋟ ʙᴜᴀᴛ ɴɢᴇʙᴀɴ ᴀᴋᴜɴ ʏɢ ᴛᴇʀᴀᴋʜɪʀ ᴅɪʟɪʜᴀᴛ sᴇᴛᴀʜᴜɴ ʏɢ ʟᴀʟᴜ
+  ├⋟ ᴋᴇʏᴡᴏʀᴅ : m
+  ├⋟ ʙᴜᴀᴛ ɴɢᴇʙᴀɴ ᴀᴋᴜɴ ʏɢ ᴛᴇʀᴀᴋʜɪʀ ᴅɪʟɪʜᴀᴛ sᴇʙᴜʟᴀɴ ʏɢ ʟᴀʟᴜ
+  ├⋟ ᴋᴇʏᴡᴏʀᴅ : o
+  ├⋟ ʙᴜᴀᴛ ɴɢᴇʙᴀɴ ᴀᴋᴜɴ ʏɢ sᴇᴅᴀɴɢ ᴏғғʟɪɴᴇ
+  ├⋟ ᴋᴇʏᴡᴏʀᴅ : q
+  ├⋟ ʙᴜᴀᴛ ɴɢᴇʙᴀɴ ᴀᴋᴜɴ ʏɢ sᴇᴅᴀɴɢ ᴏɴʟɪɴᴇ
+  ├⋟ ᴋᴇʏᴡᴏʀᴅ : r
+  ├⋟ ʙᴜᴀᴛ ɴɢᴇʙᴀɴ ᴀᴋᴜɴ ʏɢ ᴛᴇʀᴀᴋʜɪʀ ᴅɪʟɪʜᴀᴛ
+  ├⋟ ᴋᴇʏᴡᴏʀᴅ : b
+  ├⋟ ʙᴜᴀᴛ ɴɢᴇʙᴀɴ ʙᴏᴛ ʏɢ ᴀᴅᴀ ᴅɪ ɢᴄ     
+  ├⋟ ᴋᴇʏᴡᴏʀᴅ : n
+  └⋟ ʙᴜᴀᴛ ɴɢᴇʙᴀɴ ᴀᴋᴜɴ ʏɢ Lᴀsᴛ Sᴇᴇɴ A Lᴏɴɢ Tɪᴍᴇ Aɢᴏ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
 
 CMD_HELP.update(
     {
-        "bannedall": f"**Plugin : **`bannedall`.\
-        \n\n  »  **Perintah :** `{cmd}remove`\
-        \n  »  **Kegunaan : **Untuk Menganalisa user dari grup secara spesifik\
-        \n\n  »  **Perintah :** `{cmd}remove d`\
-        \n  »  **Kegunaan : **Untuk mengkik user dari grup secara spesifik\
-        \n\n  »  **Perintah :** `{cmd}remove y`\
-        \n  »  **Kegunaan : **Untuk Membanned Akun yang Terakhir Dilihat setahun yang lalu\
-        \n\n  »  **Perintah :** `{cmd}remove m`\
-        \n  »  **Kegunaan : **Untuk Membanned Akun yang Terakhir Dilihat sebulan yang lalu\
-        \n\n  »  **Perintah :** `{cmd}remove w`\
-        \n  »  **Kegunaan : **Untuk Membanned Akun yang Terakhir Dilihat seminggu yang lalu\
-        \n\n  »  **Perintah :** `{cmd}remove o`\
-        \n  »  **Kegunaan : **Untuk Membanned Akun yang sedang offline\
-        \n\n  »  **Perintah :** `{cmd}remove q`\
-        \n  »  **Kegunaan : **Untuk Membanned Akun yang sedang online\
-        \n\n  »  **Perintah :** `{cmd}remove r`\
-        \n  »  **Kegunaan : **Untuk Membanned Akun yang terakhir dilihat\
-        \n\n  »  **Perintah :** `{cmd}remove b`\
-        \n  »  **Kegunaan : **Untuk Membanned Bot yang ada di Grup chat\
-        \n\n  »  **Perintah :** `{cmd}remove n`\
-        \n  »  **Kegunaan : **Untuk Membanned Akun yang Last Seen A Long Time Ago\
-        \n\n **HATI HATI PLUGIN INI BERBAHAYA, MOHON GUNAKAN DENGAN BIJAK**\
-    "
-    }
-)
+        "rnupload": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
-CMD_HELP.update(
-    {
-        "rnupload": f"**Plugin : **`rnupload`\
-        \n\n  »  **Perintah :** `{cmd}rnupload`\
-        \n  »  **Kegunaan : **Untuk Rename dan Upload, Balas Ke Media Dan Ketik .rnupload xyz.jpg\
-    "
+👤ᴘᴇʀɪɴᴛᴀʜ ʀɴᴜᴘʟᴏᴀᴅ :         
+
+ᴄᴍᴅ:         
+    ├⋟ .rnupload 
+    └⋟ ʙᴜᴀᴛ ʀᴇɴᴀᴍᴇ ᴅᴀɴ ᴜᴘʟᴏᴀᴅ, ʀᴇᴘʟʏ ᴋᴇ ᴍᴇᴅɪᴀ & ᴋᴇᴛɪᴋ .rnupload xʏᴢ.Jᴘɢ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
 
