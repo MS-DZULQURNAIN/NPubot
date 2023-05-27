@@ -546,7 +546,7 @@ async def _iundlt(event):
 
 CMD_HELP.update(
     {
-        "ᴀᴅᴍɪɴ": "𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎\
+        "admin": "𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎\
         \n\n👤ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴ : \
         \n\nᴄᴍᴅ: \
         \n    ├⋟ `.promote` & `.demote` <ᴜsᴇʀɴᴀᴍᴇ/ʀᴇᴘʟʏ> \
@@ -574,7 +574,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "ᴘɪɴ": """
+        "pin": """
 𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
 👤ᴘᴇʀɪɴᴛᴀʜ ᴘɪɴ:         
@@ -597,7 +597,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "ᴜɴᴅᴇʟᴇᴛᴇ": """
+        "undelete": """
 𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
 👤ᴘᴇʀɪɴᴛᴀʜ ᴜɴᴅᴇʟᴇᴛᴇ:         
@@ -616,7 +616,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "ɢᴍᴜᴛᴇ": """
+        "gmute": """
 𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
 👤ᴘᴇʀɪɴᴛᴀʜ ɢᴍᴜᴛᴇ:         
@@ -635,7 +635,7 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "ᴢᴏᴍʙɪᴇs": """
+        "zombies": """
 𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
 👤ᴘᴇʀɪɴᴛᴀʜ ᴢᴏᴍʙɪᴇs:         
