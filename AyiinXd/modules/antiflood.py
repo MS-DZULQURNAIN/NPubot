@@ -70,7 +70,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "ᴀɴᴛɪғʟᴏᴏᴅ": """
+        "antiflood": """
 𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
 👤ᴘᴇʀɪɴᴛᴀʜ ᴀɴᴛɪ ғʟᴏᴏᴅ :         
