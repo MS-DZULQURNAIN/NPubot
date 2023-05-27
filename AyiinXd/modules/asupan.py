@@ -77,13 +77,22 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "asupan": f"**Plugin : **`asupan`\
-        \n\n  »  **Perintah :** `{cmd}asupan`\
-        \n  »  **Kegunaan : **Untuk Mengirim video asupan secara random.\
-        \n\n  »  **Perintah :** `{cmd}desahcowo`\
-        \n  »  **Kegunaan : **Untuk Mengirim voice desah cowo secara random.\
-        \n\n  »  **Perintah :** `{cmd}desahcewe`\
-        \n  »  **Kegunaan : **Untuk Mengirim voice desah cewe secara random.\
-    "
+        "asupan": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ᴀsᴜᴘᴀɴ:         
+
+ᴄᴍᴅ:         
+  ├⋟ .asupan
+  └⋟ ʙᴜᴀᴛ ɴɢɪʀɪᴍ ᴠɪᴅᴇᴏ ᴀsᴜᴘᴀɴ sᴇᴄᴀʀᴀ ʀᴀɴᴅᴏᴍ
+
+ᴄᴍᴅ:         
+  ├⋟ .moan
+  └⋟ ʙᴜᴀᴛ ɴɢɪʀɪᴍ ᴀsᴜᴘᴀɴ ᴍᴏᴀɴ/ᴅᴇsᴀʜ sᴇᴄᴀʀᴀ ʀᴀɴᴅᴏᴍ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
