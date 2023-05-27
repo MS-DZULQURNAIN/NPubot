@@ -182,7 +182,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "ᴀғᴋ": """
+        "afk": """
 𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
 👤ᴘᴇʀɪɴᴛᴀʜ ᴀғᴋ:         
