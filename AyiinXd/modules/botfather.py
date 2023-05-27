@@ -48,10 +48,18 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "botfather": f"**Plugin : **`botfather`\
-        \n\n  »  **Perintah :** `{cmd}buatbot`\
-        \n  »  **Kegunaan : **Buat Bot Baru Di Bot Father\
-        \n\n**Untuk Membuat Bot Dari Bot Father, Ketik** `{cmd}buatbot < bot_name > < bot_username >`\
-    "
+        "botfather": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ʙᴏᴛғᴀᴛʜᴇʀ :         
+
+ᴄᴍᴅ:         
+    ├⋟ .buatbot <ɴᴀᴍᴀ ʙᴏᴛ> <ᴜsᴇʀɴᴀᴍᴇ ʙᴏᴛ>
+    └⋟ ʙᴜᴀᴛ ʙᴏᴛ ʙᴀʀᴜ ᴅɪ ʙᴏᴛғᴀᴛʜᴇʀ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
