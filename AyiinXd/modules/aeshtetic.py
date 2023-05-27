@@ -36,7 +36,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "ᴀᴇsᴛʜᴇᴛɪᴄ": """
+        "aesthetic": """
 𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
 👤ᴘᴇʀɪɴᴛᴀʜ ᴀᴇsᴛʜᴇᴛɪᴄ:         
