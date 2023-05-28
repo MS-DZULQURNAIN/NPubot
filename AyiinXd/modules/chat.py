@@ -515,20 +515,19 @@ async def admem(event):
 
 CMD_HELP.update(
     {
-        "chat": f"**Plugin : **`chat`\
-        \n\n  »  **Perintah :** `{cmd}userid`\
-        \n  »  **Kegunaan : **untuk Mengambil ID obrolan saat ini\
-        \n\n  »  **Perintah :** `{cmd}getbot`\
-        \n  »  **Kegunaan : **Dapatkan List Bot dalam grup chat.\
-        \n\n  »  **Perintah :** `{cmd}mutechat`\
-        \n  »  **Kegunaan : **membisukan Grup chat (membutuhkan hak admin).\
-        \n\n  »  **Perintah :** `{cmd}unmutechat`\
-        \n  »  **Kegunaan : **Membuka Grup chat yang dibisukan (membutuhkan hak admin).\
-        \n\n  »  **Perintah :** `{cmd}getbot`\
-        \n  »  **Kegunaan : **Dapatkan List Bot dalam grup chat.\
-        \n\n  »  **Perintah :** `{cmd}chatinfo [opsional: <reply/tag/chat id/invite link>]`\
-        \n  »  **Kegunaan : **Mendapatkan info obrolan. Beberapa info mungkin dibatasi karena izin yang hilang.\
-    "
+        "chat": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ᴄʜᴀᴛ :         
+
+ᴄᴍᴅ:         
+    ├⋟ .userid <ʀᴇᴘʟʏ ᴜsᴇʀ>
+    └⋟ ʙᴜᴀᴛ ᴅᴀᴘᴇᴛ ɪᴅ ᴏʀᴀɴɢ
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
 
