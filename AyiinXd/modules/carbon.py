@@ -243,13 +243,26 @@ async def ccrbn(event):
 
 CMD_HELP.update(
     {
-        "carbon": f"**Plugin : **`carbon`\
-        \n\n  »  **Perintah :** `{cmd}carbon` <text/reply>\
-        \n  »  **Kegunaan : **Carbonisasi teks dengan pengaturan default.\
-        \n\n  »  **Perintah :** `{cmd}rcarbon` <text/reply>\
-        \n  »  **Kegunaan : **Carbonisasi teks, dengan warna background acak.\
-        \n\n  »  **Perintah :** `{cmd}ccarbon` <warna> <text/reply>\
-        \n  »  **Kegunaan : **Carbonisasi teks, dengan warna background custom.\
-    "
+        "carbon": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ᴄᴀʀʙᴏɴ :         
+
+ᴄᴍᴅ:         
+  ├⋟ .carbon <ᴛᴇxᴛ/ʀᴇᴘʟʏ>
+  └⋟ ᴄᴀʀʙᴏɴɪsᴀsɪ ᴛᴇᴋs ᴅɢɴ ᴘᴇɴɢᴀᴛᴜʀᴀɴ ᴅᴇғᴀᴜʟᴛ
+
+ᴄᴍᴅ:         
+  ├⋟ .rcarbon <ᴛᴇxᴛ/ʀᴇᴘʟʏ>
+  └⋟ ᴄᴀʀʙᴏɴɪsᴀsɪ ᴛᴇᴋs, ᴅɢɴ ᴡᴀʀɴᴀ ʙᴀᴄᴋɢʀᴏᴜɴᴅ ᴀᴄᴀᴋ
+
+ᴄᴍᴅ:         
+  ├⋟ .ccarbon <ᴡᴀʀɴᴀ> <ᴛᴇxᴛ/ʀᴇᴘʟʏ>
+  └⋟ ᴄᴀʀʙᴏɴɪsᴀsɪ ᴛᴇᴋs, ᴅɢɴ ᴡᴀʀɴᴀ ʙᴀᴄᴋɢʀᴏᴜɴᴅ ᴄᴜsᴛᴏᴍ.
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
