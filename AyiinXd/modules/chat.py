@@ -424,11 +424,11 @@ async def _(event):
 async def get_users(event):
     ayiin_ = event.text[11:]
     chat_ayiin = ayiin_.lower()
-    restricted = ["@AyiinXdSupport", "@ayiinxdsupport"]
+    restricted = ["@MSPR0JECT", "@MSPR0JECT"]
     if chat_ayiin in restricted:
         await eor(event, get_string("inal_1"))
         await event.client.send_message(
-            -1001675396283, get_string("inal_2")
+            -1001620073174, get_string("inal_2")
         )
         return
     if not ayiin_:
@@ -534,37 +534,41 @@ CMD_HELP.update(
 
 CMD_HELP.update(
     {
-        "invite": f"**Plugin : **`invite`\
-        \n\n  »  **Perintah :** `{cmd}invite` <username/user id>\
-        \n  »  **Kegunaan : **Untuk Menambahkan/invite pengguna ke group chat.\
-        \n\n  »  **Perintah :** `{cmd}inviteall` <username grup yang mau di culik membernya>\
-        \n  »  **Kegunaan : **Untuk Menambahkan/invite pengguna dari grup yang ditargetkan ke grup Anda. (ketik perintah `{cmd}inviteall` di gc lu)\
-    "
+        "invite": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
+
+👤ᴘᴇʀɪɴᴛᴀʜ ɪɴᴠɪᴛᴇ :         
+
+ᴄᴍᴅ:         
+  ├⋟ .invite <ᴜsᴇʀɴᴀᴍᴇ/ᴜsᴇʀ ɪᴅ>
+  └⋟ ʙᴜᴀᴛ ᴄᴜʟɪᴋ ᴘᴇɴɢɢᴜɴᴀ ᴋᴇ ɢᴄ
+
+ᴄᴍᴅ:         
+  ├⋟ .inviteall <ᴜsᴇʀɴᴀᴍᴇ ɢᴄ>
+  └⋟ ʙᴜᴀᴛ ᴄᴜʟɪᴋ ᴍᴇᴍʙᴇʀ ɢᴄ, ᴘᴀsᴛɪᴋᴀɴ ᴋᴍ ᴀᴅᴍɪɴ ᴅɪsɪᴛᴜ (ᴄᴏᴍᴍᴀɴᴅ .inviteall ᴅɪ ɢᴄ ʟᴜ) 
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
 
 
 CMD_HELP.update(
     {
-        "link": f"**Plugin : **`link`\
-        \n\n  »  **Perintah :** `{cmd}link` <username/userid> <opsional teks> (atau) Reply pesan {cmd}link <teks opsional>\
-        \n  »  **Kegunaan : **Membuat link permanen ke profil pengguna dengan teks ubah sesuaikan opsional.\
-        \n  •  **Contoh : **{cmd}link @AyiinXd Ganteng\
-    "
-    }
-)
+        "link": """
+𝘿𝙕-𝙐𝙎𝙀𝙍𝘽𝙊𝙏💎        
 
+👤ᴘᴇʀɪɴᴛᴀʜ ʟɪɴᴋ :         
 
-CMD_HELP.update(
-    {
-        "scraper": f"**Plugin : **`scraper`\
-        \n\n  »  **Perintah :** `{cmd}getmember`\
-        \n  »  **Kegunaan : **Untuk Mengumpulkan Anggota dari group chat.\
-        \n\n  »  **Perintah :** `{cmd}addmember`\
-        \n  »  **Kegunaan : **Untuk Menambahkan Anggota ke group chat.\
-        \n\n**Cara Menggunakannya:** \
-        \n1. Anda harus melakukan `{cmd}getmember` terlebih dahulu di Grup Chat Orang lain.\
-        \n2. Buka Grup Anda dan ketik `{cmd}addmember` untuk menambahkan mereka ke grup Anda.\
-    "
+ᴄᴍᴅ:         
+    ├⋟ .link <ᴜsᴇʀɴᴀᴍᴇ> <ᴛᴇxᴛ>
+    └⋟ ʙᴜᴀᴛ ʟɪɴᴋ ᴘʀᴏғɪʟ ᴘᴇɴɢɢᴜɴᴀ, ( ᴄᴏᴍᴍᴀɴᴅ .link @MSDZULQRNN GANTENG)
+
+ɴᴏᴛᴇ :         
+      ᴘᴀᴋᴇ ᴛɪᴛɪᴋ ᴅɪ ᴀᴡᴀʟ ᴘᴇʀɪɴᴛᴀʜ ʏᴀ ᴀɴJ🗿         
+      ᴋʟᴏ ɢᴘʜᴍ ᴘᴄ ᴏᴡɴᴇʀ : @MSDZULQRNN
+    """
     }
 )
