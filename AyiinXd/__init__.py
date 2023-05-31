@@ -986,9 +986,7 @@ with bot:
                 buttons = paginate_help(
                     current_page_number - 1, dugmeler, "helpme")
                 await event.edit(buttons=buttons)
-            else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=False)
+            
 
         @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"ub_modul_(.*)")))
         async def on_plug_in_callback_query_handler(event):
@@ -1022,9 +1020,7 @@ with bot:
                         Button.inline("ᴋᴇᴍʙᴀʟɪ", data="reopen")]
                 )
 
-            else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=False)
+            
 
     except BaseException:
         LOGS.info(
