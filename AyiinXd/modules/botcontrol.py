@@ -1037,18 +1037,6 @@ async def bot_start(event):
                 my_username=my_username,
                 my_mention=my_mention,
             )
-        else:
-            start_msg = f"**👋 Hai** {mention}**!**\
-                        \n\n**Saya adalah {my_first}** \
-                        \n**Anda dapat menghubungi [{OWNER}](tg://user?id={OWNER_ID}) dari sini.**\
-                        \n**Jangan melakukan spam atau anda akan di Banned**\
-                        \n\n**Powered by** [UserBot](https://github.com/tokonandapedia/NandaPediaUbo)"
-        buttons = [
-            (
-                Button.url("ɢʀᴏᴜᴘ", f"https://t.me/{GROUP}"),
-                Button.url("ᴄʜᴀɴɴᴇʟ", f"https://t.me/{CHANNEL}"),
-            )
-        ]
     else:
         start_msg = f"**Halo [{OWNER}](tg://user?id={OWNER_ID})**\
             \n**Apa ada yang bisa saya bantu?**"
