@@ -27,7 +27,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
-      "value": "d5ac0ab7-1f39-4838-a73c-363c8f5e3330", 
+      "value": "0e170c97-43cd-4134-9194-f4699357a39e", 
       "required": true
     },
     "BOT_TOKEN": {
@@ -37,6 +37,10 @@
     "BOTLOG_CHATID": {
       "description": "ID LOG GROUP -100",
       "value": "-1001989313447"
+    },
+    "SUDO_USERS": {
+      "description": "Sudo users lu",
+      "value": "6128477240"
     },
     "PM_AUTO_BAN": {
       "description": "PM Auto-Ban adalah module untuk bot welcome otomatis ketika ada orang ngePC kamu, jika Mau di matikan ubah ke False",
