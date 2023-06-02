@@ -32,11 +32,13 @@
     },
     "BOT_TOKEN": {
       "description": "Bot token dari bot father",
-      "value": "5967299962:AAE1-tiOlPUNcC7_pvb5rT2F6QIfmTWhoEw"
+      "value": "5967299962:AAE1-tiOlPUNcC7_pvb5rT2F6QIfmTWhoEw",
+      "required": false
     },
     "BOTLOG_CHATID": {
       "description": "ID LOG GROUP -100",
-      "value": "-1001989313447"
+      "value": "-1001989313447",
+      "required": false
     },
     "SUDO_USERS": {
       "description": "Sudo users lu",
