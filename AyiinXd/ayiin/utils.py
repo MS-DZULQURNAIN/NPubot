@@ -77,7 +77,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg", "photoyins.jpg"
+            "https://telegra.ph/file/9c8e3f0f011389d22afed.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -106,7 +106,7 @@ async def autobot():
     if who.username:
         username = f"{who.username}_bot"
     else:
-        username = f"NandaPedia{(str(who.id))[5:]}bot"
+        username = f"DZuserbot{(str(who.id))[5:]}bot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -135,7 +135,7 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/8d9d5ec998234c4e43bca.jpg",
+              "https://telegra.ph/file/9c8e3f0f011389d22afed.jpg",
           ]
     )
     await bot.send_message(bf, username)
@@ -144,7 +144,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = f"DZuser{(str(who.id))[6:]}{str(ran)}bot"
+        username = f"DZuserbot{(str(who.id))[6:]}{str(ran)}bot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
