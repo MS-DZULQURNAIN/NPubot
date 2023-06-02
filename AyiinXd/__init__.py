@@ -748,9 +748,7 @@ with bot:
                     except Exception:
                         pass
 
-            else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=False)
+            
 
         @tgbot.on(events.CallbackQuery(data=b"inline_yins"))
         async def about(event):
@@ -768,9 +766,7 @@ with bot:
                                          "ᴋᴇᴍʙᴀʟɪ", data="gcback")],
                                  ]
                                  )
-            else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=False)
+            
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -812,9 +808,7 @@ with bot:
                     file=logoyins,
                     link_preview=True,
                     buttons=[Button.inline("ᴋᴇᴍʙᴀʟɪ", data="inline_yins")])
-            else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=False)
+            
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -850,9 +844,7 @@ with bot:
                     file=logoyins,
                     link_preview=True,
                     buttons=[Button.inline("ᴋᴇᴍʙᴀʟɪ", data="inline_yins")])
-            else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=False)
+            
 
         @tgbot.on(events.CallbackQuery(data=b"konten_yins"))
         async def about(event):
@@ -870,9 +862,7 @@ with bot:
                                          "ʙᴀᴄᴋ", data="gcback")],
                                  ]
                                  )
-            else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=False)
+            
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -905,9 +895,7 @@ with bot:
                     file=logoyins,
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="konten_yins")])
-            else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=False)
+            
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
@@ -928,10 +916,7 @@ with bot:
                     file=logoyins,
                     link_preview=True,
                     buttons=[Button.inline("ʙᴀᴄᴋ", data="konten_yins")])
-            else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=False)
-
+            
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(rb"yins_langs")
@@ -954,10 +939,7 @@ with bot:
                     file=logoyins,
                     link_preview=True,
                     buttons=[Button.inline("ᴋᴇᴍʙᴀʟɪ", data="gcback")])
-            else:
-                reply_pop_up_alert = f"❌ DISCLAIMER ❌\n\nAnda Tidak Mempunyai Hak Untuk Menekan Tombol Button Ini"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=False)
-
+            
         @tgbot.on(events.CallbackQuery(data=b"close"))
         async def close(event):
             buttons = [
