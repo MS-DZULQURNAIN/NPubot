@@ -527,7 +527,7 @@ with bot:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
+            if event.query.user_id == uid:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = txt_main_dz
                 await event.edit(
@@ -683,7 +683,7 @@ with bot:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
+            if event.query.user_id == uid:
                 current_page_number = int(
                     event.data_match.group(1).decode("UTF-8"))
                 buttons = paginate_help(
@@ -701,7 +701,7 @@ with bot:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  
+            if event.query.user_id == uid:  
                 # https://t.me/TelethonChat/115200
                 await event.edit(
                     file=logoyins,
@@ -714,7 +714,7 @@ with bot:
             )
         )
         async def gback_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  
+            if event.query.user_id == uid:  
                 # https://t.me/TelethonChat/115200
                 text = txt_main_dz
                 await event.edit(
@@ -729,7 +729,7 @@ with bot:
             )
         )
         async def langs(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
+            if event.query.user_id == uid:
                 lang = event.data_match.group(1).decode("UTF-8")
                 language[0] = lang
                 if not gvarstatus("lang"):
@@ -953,7 +953,7 @@ with bot:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
+            if event.query.user_id == uid:
                 await event.edit(get_string("lang_3"), file=logoyins)
 
         @tgbot.on(
@@ -962,7 +962,7 @@ with bot:
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
+            if event.query.user_id == uid:
                 current_page_number = int(
                     event.data_match.group(1).decode("UTF-8"))
                 buttons = paginate_help(
@@ -972,7 +972,7 @@ with bot:
 
         @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"ub_modul_(.*)")))
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
+            if event.query.user_id == uid:
                 modul_name = event.data_match.group(1).decode("UTF-8")
 
                 cmdhel = str(CMD_HELP[modul_name])
